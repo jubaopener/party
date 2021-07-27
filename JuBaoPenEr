@@ -1,764 +1,715 @@
 proxies:
-  - {name: 🇸🇬 新加坡, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 2, server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-7-74812.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 3, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: az.v2moe.tk, port: 6011, type: vmess, uuid: c94ff2ca-985f-4d0d-959b-0969575a6fdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jlpfaaK, ws-headers: {Host: aws.jdzz.tk}}
-  - {name: 🇨🇳 台湾, server: tw6-5641.dukouplan3.dev, port: 5306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw6-5641.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾, server: tw5-5564.dukouplan3.dev, port: 5305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw5-5564.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇭🇰 香港, server: hk-route-12369-3.dukou.info, port: 8303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-3.dukou.info, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: false}
   - {name: 🇺🇲 美国, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk10-gray.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 4, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇲 美国 2, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router2-hk4-5478.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: hk-route-12369-2.dukou.info, port: 8302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-2.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 4, server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk12-5510.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 2, server: hk-cnrelay-14-142345.dukou.info, port: 8314, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-cnrelay-14-142345.dukou.info, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 3, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk8.dukou.info, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 2, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk11-5423.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 4, server: hk-route-12369-9.dukou.info, port: 8309, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-9.dukou.info, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 2, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 5, server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk12-5510.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 3, server: sg-cn-relay-8-14852.dukou.info, port: 9308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-8-14852.dukou.info, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 3, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router2-hk4-5478.dukou.info, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 6, server: hk-route-12369-2.dukou.info, port: 8302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-2.dukou.info, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 4, server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-4-40e978.dukou.info, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 2, server: tw3-5412.dukouplan3.dev, port: 5303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw3-5412.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇸🇬 新加坡 5, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-3-dd4440.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 5, server: hk-route-12369-9.dukou.info, port: 8309, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-9.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 6, server: sg-cn-relay-8-14852.dukou.info, port: 9308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-8-14852.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 2, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 7, server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-4-40e978.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 6, server: hk-cnrelay-14-142345.dukou.info, port: 8314, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-cnrelay-14-142345.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 7, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk8.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 3, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk11-5423.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 3, server: tw5-5564.dukouplan3.dev, port: 5305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw5-5564.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇯🇵 日本 3, server: bp01.spaceseven.xyz, port: 443, type: trojan, password: 091cab4c-a217-3ad6-a8a7-9cd40e595360, sni: bp01.spaceseven.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 4, server: auto.freev2.top, port: 38939, type: vmess, uuid: b9cdc10d-a8bf-4dc9-a347-3410ee1b0ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 8, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 香港 9, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇳 台湾 4, server: tw3-5412.dukouplan3.dev, port: 5303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw3-5412.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 4, server: 156.146.56.137, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇲 美国 5, server: 156.146.56.137, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇲 美国 6, server: 156.146.56.137, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇲 美国 7, server: 156.146.56.137, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 台湾 5, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 8, server: 143.244.57.99, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇲 美国 9, server: 156.146.56.137, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇲 美国 10, server: 156.146.56.137, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇲 美国 11, server: 156.146.56.137, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇲 美国 12, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国 13, server: 143.244.57.99, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇲 美国 14, server: 143.244.57.99, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇺🇲 美国 15, server: 143.244.57.99, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾 3, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 7, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 4, server: 138.199.19.154, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 台湾 4, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 5, server: 143.244.57.99, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇲 美国 6, server: 143.244.57.99, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇲 美国 7, server: 143.244.57.99, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇲 美国 8, server: 143.244.57.99, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国 9, server: 143.244.57.99, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇨🇭 瑞士, server: 84.17.53.221, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 10, server: 143.244.57.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国 11, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 12, server: 143.244.57.99, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇲 美国 13, server: 143.244.57.99, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国 14, server: 143.244.57.99, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 美国 15, server: 156.146.62.39, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国 16, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国 17, server: 120.236.197.89, port: 50003, type: vmess, uuid: 53f853f1-df75-4014-9572-c9677db10dbc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.236.197.89}}
+  - {name: 🇺🇲 美国 18, server: 143.244.57.99, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇲 美国 19, server: 143.244.57.99, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国 20, server: 143.244.57.99, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 🇺🇲 美国 21, server: 143.244.57.99, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇲 美国 22, server: 138.199.16.137, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国 23, server: 138.199.19.184, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 24, server: 143.244.57.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇲 美国 25, server: 143.244.57.99, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 美国 26, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国 27, server: 143.244.57.99, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇷🇺 俄罗斯, server: 2.56.241.7, port: 31222, type: vmess, uuid: 56bb7d0c-be78-4f90-9064-0f92cfe1c56f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 2.56.241.7}}
-  - {name: 🇺🇲 美国 16, server: 143.244.57.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 美国 17, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国 18, server: 143.244.57.99, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 🇺🇲 美国 28, server: 138.199.16.137, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇲 美国 29, server: 138.199.16.137, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇷🇺 俄罗斯 2, server: els.jklist.ga, port: 2095, type: vmess, uuid: 5cf2ecb0-9165-4760-8e8a-381ce547a6ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: els.jklist.ga}}
-  - {name: ‪捷克, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国 19, server: 143.244.57.99, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇲 美国 20, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 🇭🇰 香港 10, server: hk-route-12369-3.dukou.info, port: 8303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-3.dukou.info, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 3, server: ruml.jjyun.ren, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇮🇳 印度, server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 30, server: 156.146.56.137, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇲 美国 31, server: 156.146.56.137, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇦🇹 奥地利, server: 89.187.168.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇺 俄罗斯 4, server: 2.56.241.7, port: 31222, type: vmess, uuid: 56bb7d0c-be78-4f90-9064-0f92cfe1c56f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 2.56.241.7}}
+  - {name: 🇺🇲 美国 32, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 33, server: 156.146.56.137, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国 34, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 35, server: 138.199.16.137, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇲 美国 36, server: 143.244.57.99, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇺🇲 美国 37, server: 143.244.57.99, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇲 美国 38, server: 138.199.16.137, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇲 美国 39, server: 143.244.57.99, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇷🇺 俄罗斯 3, server: 2.56.241.7, port: 31222, type: vmess, uuid: 56bb7d0c-be78-4f90-9064-0f92cfe1c56f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 2.56.241.7}}
+  - {name: 🇺🇲 美国 40, server: 143.244.57.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 捷克, server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 41, server: 143.244.57.99, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇮🇳 印度, server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com, skip-cert-verify: false}
+  - {name: 捷克 2, server: 185.180.14.151, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇯🇵 日本 2, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 台湾 5, server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw7-5756.dukouplan3.dev, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 42, server: 156.146.56.137, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 美国 43, server: 156.146.56.137, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇦🇺 澳大利亚, server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 波黑, server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 44, server: 143.244.57.99, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 波黑 2, server: 185.212.111.41, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 45, server: 185.152.64.151, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇫🇷 法国, server: 176.31.146.89, port: 4040, type: ss, cipher: aes-256-gcm, password: AMvZHPXhPk6t}
-  - {name: 🇺🇲 美国 21, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 🇺🇲 美国 22, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 🇩🇪 德国, server: m2.proxypools.top, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇳🇱 荷兰, server: 5.2.67.108, port: 17105, type: trojan, password: 13844906-ae35-3a91-a98a-a90b823abe88, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 2, server: 45.82.167.21, port: 80, type: vmess, uuid: a7b384a1-dd97-4fc3-819d-06cd8c706811, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇲 美国 23, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇲 美国 24, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇲 美国 25, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇬🇧 英国, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_414, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇺🇲 美国 26, server: 64.32.13.30, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12001759.xyz}}
-  - {name: 🇺🇲 美国 27, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
-  - {name: 🇺🇲 美国 28, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇲 美国 29, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 波黑, server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_626, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇺 俄罗斯 5, server: 5.189.202.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇦🇺 澳大利亚, server: 37.19.199.224, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 美国 30, server: 120.236.197.89, port: 50003, type: vmess, uuid: 53f853f1-df75-4014-9572-c9677db10dbc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.236.197.89}}
-  - {name: 🇺🇲 美国 31, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇷🇺 俄罗斯 6, server: 5.189.202.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇷🇺 俄罗斯 7, server: 5.189.202.16, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇷🇺 俄罗斯 8, server: 5.189.202.16, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇦🇺 澳大利亚 2, server: 37.19.199.224, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 比利时, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇺 俄罗斯 9, server: 5.189.202.16, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇺 俄罗斯 10, server: 5.189.202.16, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇲 美国 32, server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇦🇺 澳大利亚 3, server: 37.19.199.224, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇲 美国 33, server: 212.102.44.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 台湾 6, server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw7-5756.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 34, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 塞浦路斯, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 Relay_-🇺🇸US_48, server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇦🇺 澳大利亚 4, server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国 35, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 澳大利亚 5, server: 45.248.78.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇦🇺 澳大利亚 6, server: 45.248.78.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇦🇺 澳大利亚 7, server: 45.248.78.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇦🇺 澳大利亚 8, server: 45.248.78.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇦🇺 澳大利亚 9, server: 45.248.78.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇦🇺 澳大利亚 10, server: 45.248.78.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇩🇪 德国 3, server: m2.proxypools.top, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: m2.proxypools.top}}
-  - {name: 比利时 2, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 美国 36, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇭🇰 香港 11, server: 84.17.57.73, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇺 俄罗斯 11, server: 45.11.92.139, port: 10121, type: vmess, uuid: 24cd8398-c0e6-4667-a712-a358754809d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.11.92.139}}
-  - {name: 🇫🇷 法国 2, server: 51.79.64.57, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: yPAVG3dkJyPY}
-  - {name: 🇬🇧 英国 2, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国 37, server: us2.jjyun.ren, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
+  - {name: 🇺🇲 美国 46, server: 156.146.62.39, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 美国 47, server: 138.199.19.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 48, server: 156.146.56.137, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 美国 49, server: 138.199.16.137, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇺🇲 美国 50, server: 143.244.57.99, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 美国 51, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国 52, server: 143.244.57.99, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇲 美国 53, server: 156.146.56.137, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 美国 54, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇺🇲 美国 55, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇷🇺 俄罗斯 4, server: 5.189.202.16, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: ‪捷克, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国 56, server: 143.244.57.99, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇲 美国 57, server: 143.244.57.99, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 美国 58, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇦🇺 澳大利亚 2, server: 45.248.78.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 美国 59, server: 138.199.16.137, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇲 美国 60, server: 156.146.62.39, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇳🇱 荷兰, server: 212.102.35.211, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国 61, server: 156.146.62.39, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇲 美国 62, server: 143.244.57.99, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -781,110 +732,103 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 3
-      - 🇭🇰 香港 2
       - 🇨🇳 台湾
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
       - 🇺🇲 美国
-      - 🇸🇬 新加坡 4
-      - 🇯🇵 日本
-      - 🇺🇲 美国 2
+      - 🇭🇰 香港 2
       - 🇭🇰 香港 3
+      - 🇺🇲 美国 2
       - 🇭🇰 香港 4
-      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 5
-      - 🇸🇬 新加坡 6
-      - 🇨🇳 台湾 2
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 3
+      - 🇭🇰 香港 6
+      - 🇸🇬 新加坡 4
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡 5
       - 🇨🇳 台湾 3
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇨🇳 台湾 4
+      - 🇭🇰 香港 7
       - 🇺🇲 美国 4
+      - 🇨🇳 台湾 4
       - 🇺🇲 美国 5
       - 🇺🇲 美国 6
       - 🇺🇲 美国 7
-      - 🇨🇳 台湾 5
       - 🇺🇲 美国 8
       - 🇺🇲 美国 9
+      - 🇨🇭 瑞士
       - 🇺🇲 美国 10
       - 🇺🇲 美国 11
       - 🇺🇲 美国 12
       - 🇺🇲 美国 13
       - 🇺🇲 美国 14
       - 🇺🇲 美国 15
-      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
       - 🇺🇲 美国 18
-      - 🇷🇺 俄罗斯 2
-      - ‪捷克
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
-      - 🇭🇰 香港 10
-      - 🇷🇺 俄罗斯 3
-      - 🇮🇳 印度
-      - 🇦🇹 奥地利
-      - 🇷🇺 俄罗斯 4
-      - 🇫🇷 法国
       - 🇺🇲 美国 21
       - 🇺🇲 美国 22
-      - 🇩🇪 德国
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国 2
       - 🇺🇲 美国 23
       - 🇺🇲 美国 24
       - 🇺🇲 美国 25
-      - 🇬🇧 英国
-      - 🇷🇺 Relay_-🇷🇺RU_414
       - 🇺🇲 美国 26
       - 🇺🇲 美国 27
+      - 🇷🇺 俄罗斯
       - 🇺🇲 美国 28
       - 🇺🇲 美国 29
-      - 波黑
-      - 🇺🇲 Pool_馃嚭馃嚫US_626
-      - 🇷🇺 俄罗斯 5
-      - 🇦🇺 澳大利亚
+      - 🇷🇺 俄罗斯 2
       - 🇺🇲 美国 30
       - 🇺🇲 美国 31
-      - 🇷🇺 俄罗斯 6
-      - 🇷🇺 俄罗斯 7
-      - 🇷🇺 俄罗斯 8
-      - 🇦🇺 澳大利亚 2
-      - 比利时
-      - 🇷🇺 俄罗斯 9
-      - 🇷🇺 俄罗斯 10
+      - 🇦🇹 奥地利
       - 🇺🇲 美国 32
-      - 🇦🇺 澳大利亚 3
       - 🇺🇲 美国 33
-      - 🇨🇳 台湾 6
       - 🇺🇲 美国 34
-      - 塞浦路斯
-      - 🇺🇲 Relay_-🇺🇸US_48
-      - 🇦🇺 澳大利亚 4
       - 🇺🇲 美国 35
-      - 🇦🇺 澳大利亚 5
-      - 🇦🇺 澳大利亚 6
-      - 🇦🇺 澳大利亚 7
-      - 🇦🇺 澳大利亚 8
-      - 🇦🇺 澳大利亚 9
-      - 🇦🇺 澳大利亚 10
-      - 🇩🇪 德国 3
-      - 比利时 2
       - 🇺🇲 美国 36
-      - 🇭🇰 香港 11
-      - 🇷🇺 俄罗斯 11
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 2
       - 🇺🇲 美国 37
+      - 🇺🇲 美国 38
+      - 🇺🇲 美国 39
+      - 🇷🇺 俄罗斯 3
+      - 🇺🇲 美国 40
+      - 捷克
+      - 🇺🇲 美国 41
+      - 🇮🇳 印度
+      - 捷克 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 台湾 5
+      - 🇺🇲 美国 42
+      - 🇺🇲 美国 43
+      - 🇦🇺 澳大利亚
+      - 波黑
+      - 🇺🇲 美国 44
+      - 波黑 2
+      - 🇺🇲 美国 45
+      - 🇫🇷 法国
+      - 🇺🇲 美国 46
+      - 🇺🇲 美国 47
+      - 🇺🇲 美国 48
+      - 🇺🇲 美国 49
+      - 🇺🇲 美国 50
+      - 🇺🇲 美国 51
+      - 🇺🇲 美国 52
+      - 🇺🇲 美国 53
+      - 🇺🇲 美国 54
+      - 🇺🇲 美国 55
+      - 🇷🇺 俄罗斯 4
+      - ‪捷克
+      - 🇺🇲 美国 56
+      - 🇺🇲 美国 57
+      - 🇺🇲 美国 58
+      - 🇦🇺 澳大利亚 2
+      - 🇺🇲 美国 59
+      - 🇺🇲 美国 60
+      - 🇳🇱 荷兰
+      - 🇺🇲 美国 61
+      - 🇺🇲 美国 62
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
