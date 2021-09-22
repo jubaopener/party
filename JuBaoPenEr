@@ -1,203 +1,212 @@
 proxies:
-  - {name: 🇭🇰 香港, server: 9.mxyssr.top, port: 41109, type: vmess, uuid: 55732e0f-e9ba-3f32-b89b-4f78ddcdbfbf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国, server: 13.mxyssr.top, port: 41113, type: vmess, uuid: 55732e0f-e9ba-3f32-b89b-4f78ddcdbfbf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 75a5c236-1db7-3b8e-844b-261562e5c12e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾, server: 2.58.242.46, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇨🇳 台湾 2, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 3, server: 2.58.242.46, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇳 台湾 4, server: 2.58.242.46, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇭🇰 香港-解锁Netflix, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: 75a5c236-1db7-3b8e-844b-261562e5c12e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 5, server: 2.58.242.46, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇳 台湾 6, server: 2.58.242.46, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇯🇵 日本, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇮🇳 印度, server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本 2, server: icajm.moox.icu, port: 40005, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: 🇩🇪 德国, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇮🇳 印度 2, server: 45.79.126.80, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇭 瑞士, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇭🇰 香港 2, server: hk2.free80ml.tk, port: 80, type: vmess, uuid: 35fa01b6-aff0-3350-81d3-9185e6be42d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk2.free80ml.tk}}
-  - {name: 🇮🇳 印度 3, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇹 意大利, server: 212.102.54.181, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇮🇹 意大利 2, server: 212.102.54.181, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇩🇪 德国 2, server: 185.102.219.6, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇩🇪 德国 3, server: 138.199.19.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士 2, server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇹 意大利 3, server: 212.102.54.181, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 英国 2, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 英国 3, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国 4, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 德国 4, server: 89.163.212.75, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇴 罗马尼亚, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国 2, server: 104.244.210.115, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇷🇴 罗马尼亚 2, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇩🇰 丹麦, server: 45.12.221.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 法国, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾, server: 2.58.242.46, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
   - {name: 比利时, server: 5.253.205.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇬🇧 英国 5, server: 5.226.139.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾 2, server: 2.58.242.46, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇨🇭 瑞士, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇮🇹 意大利, server: 212.102.54.181, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇯🇵 日本 2, server: icajm.moox.icu, port: 40005, type: vmess, uuid: fce8e03b-f0b8-49e0-a732-2cc44edb0137, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇬🇧 英国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港, server: hk2.free80ml.tk, port: 80, type: vmess, uuid: 35fa01b6-aff0-3350-81d3-9185e6be42d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk2.free80ml.tk}}
+  - {name: 🇬🇧 英国 2, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 德国, server: 138.199.19.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇭🇰 香港-解锁Netflix, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇹 意大利 2, server: 212.102.54.181, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇩🇪 德国 2, server: 185.102.219.6, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 🇩🇪 德国 3, server: 89.163.212.75, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国 3, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇮🇳 印度 2, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇴 罗马尼亚, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇫🇷 法国, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国, server: 104.244.208.211, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇭🇰 香港 2, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 3, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇬🇧 英国 4, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 新加坡, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇫🇷 法国 2, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇲 美国 3, server: 104.244.208.211, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇲 美国 4, server: 104.244.208.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 罗马, server: 91.90.123.131, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 克罗地亚, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 美国 5, server: 66.115.177.156, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇮🇪 爱尔兰, server: se.free-v2ray.tk, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇰 丹麦, server: 45.12.221.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 西班牙, server: 185.188.61.119, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 西班牙 2, server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇯🇵 日本 3, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 4, server: 2.58.242.46, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 美国 2, server: 104.244.208.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇨🇭 瑞士 2, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇳 台湾 5, server: 2.58.242.46, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇸🇬 新加坡 2, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 4, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 3, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 欧洲, server: 91.205.230.160, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 西班牙, server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇬🇧 英国 6, server: 146.70.27.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 阿塞拜疆, server: 62.212.239.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 香港-解锁Netflix 2, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 75a5c236-1db7-3b8e-844b-261562e5c12e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 西班牙 2, server: 185.188.61.119, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇲 美国 6, server: 104.244.211.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 希腊, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 葡萄牙, server: 5.154.174.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇨🇭 瑞士 3, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇲 美国 7, server: 18.167.36.24, port: 56789, type: vmess, uuid: 48eda63e-f681-4e24-a563-204e4b3774c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
   - {name: 🇨🇦 加拿大, server: 37.120.205.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 葡萄牙 2, server: 5.154.174.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇬🇧 英国 7, server: 86.106.136.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇨🇦 加拿大 2, server: ss6.ssrsub.one, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: 🇨🇦 加拿大 3, server: ss5.ssrsub.one, port: 10443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 🇯🇵 日本 5, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 3, server: 104.244.211.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 葡萄牙, server: 5.154.174.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 新加坡 3, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 4, server: 104.244.210.115, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇬🇧 英国 5, server: 146.70.27.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 新加坡 4, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港-解锁Netflix 2, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 6, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 罗马, server: 91.90.123.131, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 斯洛文尼亚, server: 195.158.249.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇦🇷 阿根廷, server: 91.206.168.29, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇮🇹 意大利 4, server: 217.138.219.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇮🇹 意大利 5, server: 37.120.207.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 罗马尼亚 3, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇮🇹 意大利 3, server: 217.138.219.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 美国 5, server: 18.167.36.24, port: 56789, type: vmess, uuid: 48eda63e-f681-4e24-a563-204e4b3774c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇨🇦 加拿大 2, server: ss5.ssrsub.one, port: 10443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 🇭🇰 香港 4, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 6, server: 13.mxyssr.top, port: 41113, type: vmess, uuid: 55732e0f-e9ba-3f32-b89b-4f78ddcdbfbf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰, server: se.free-v2ray.tk, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇮🇹 意大利 4, server: 37.120.207.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 罗马尼亚 2, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇭🇰 香港 5, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 5, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 6, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: d066b318-681c-3a4e-afc8-93f24b6cdad6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇹 意大利 5, server: 212.102.54.181, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 罗马尼亚 3, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: 🌍 国外媒体
     type: select
@@ -205,272 +214,284 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
   - name: 🎯 全球直连
     type: select
@@ -494,68 +515,71 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇺🇲 美国
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 香港-解锁Netflix
-      - 🇨🇳 台湾 5
-      - 🇨🇳 台湾 6
       - 🇮🇳 印度
-      - 🇯🇵 日本 2
-      - 🇩🇪 德国
-      - 🇮🇳 印度 2
+      - 🇨🇳 台湾
+      - 比利时
+      - 🇨🇳 台湾 2
       - 🇨🇭 瑞士
-      - 🇭🇰 香港 2
-      - 🇮🇳 印度 3
       - 🇮🇹 意大利
+      - 🇯🇵 日本 2
+      - 🇬🇧 英国
+      - 🇭🇰 香港
+      - 🇬🇧 英国 2
+      - 🇩🇪 德国
+      - 🇭🇰 香港-解锁Netflix
       - 🇮🇹 意大利 2
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
-      - 🇨🇭 瑞士 2
-      - 🇬🇧 英国
-      - 🇮🇹 意大利 3
-      - 🇬🇧 英国 2
       - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇩🇪 德国 4
+      - 🇮🇳 印度 2
       - 🇷🇴 罗马尼亚
-      - 🇺🇲 美国 2
-      - 🇷🇴 罗马尼亚 2
-      - 🇩🇰 丹麦
       - 🇫🇷 法国
-      - 比利时
-      - 🇬🇧 英国 5
+      - 🇺🇲 美国
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
       - 🇫🇷 法国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 罗马
-      - 克罗地亚
-      - 🇺🇲 美国 5
-      - 🇮🇪 爱尔兰
-      - 欧洲
+      - 🇩🇰 丹麦
       - 西班牙
-      - 🇬🇧 英国 6
-      - 阿塞拜疆
-      - 🇭🇰 香港-解锁Netflix 2
       - 西班牙 2
-      - 🇺🇲 美国 6
-      - 希腊
-      - 葡萄牙
-      - 🇨🇭 瑞士 3
-      - 🇺🇲 美国 7
+      - 🇯🇵 日本 3
+      - 🇨🇳 台湾 4
+      - 🇺🇲 美国 2
+      - 🇨🇭 瑞士 2
+      - 🇨🇳 台湾 5
+      - 🇸🇬 新加坡 2
+      - 🇯🇵 日本 4
+      - 🇭🇰 香港 3
+      - 欧洲
+      - 阿塞拜疆
       - 🇨🇦 加拿大
-      - 葡萄牙 2
-      - 🇬🇧 英国 7
-      - 🇨🇦 加拿大 2
-      - 🇨🇦 加拿大 3
+      - 🇯🇵 日本 5
+      - 🇺🇲 美国 3
+      - 葡萄牙
+      - 🇸🇬 新加坡 3
+      - 🇺🇲 美国 4
+      - 🇬🇧 英国 5
+      - 🇸🇬 新加坡 4
+      - 🇭🇰 香港-解锁Netflix 2
+      - 🇯🇵 日本 6
+      - 罗马
       - 斯洛文尼亚
       - 🇦🇷 阿根廷
+      - 🇮🇹 意大利 3
+      - 🇺🇲 美国 5
+      - 🇨🇦 加拿大 2
+      - 🇭🇰 香港 4
+      - 🇺🇲 美国 6
+      - 🇮🇪 爱尔兰
       - 🇮🇹 意大利 4
+      - 🇷🇴 罗马尼亚 2
+      - 🇭🇰 香港 5
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
       - 🇮🇹 意大利 5
+      - 克罗地亚
       - 🇷🇴 罗马尼亚 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
