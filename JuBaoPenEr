@@ -1,400 +1,386 @@
 proxies:
-  - {name: 欧洲, server: rxzgzq.moox.icu, port: 34016, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ntt.xlanfly.xyz}}
-  - {name: 🇭🇰 香港, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 🇸🇬 新加坡, server: icajm.moox.icu, port: 34019, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: do403.xlanfly.xyz}}
-  - {name: 🇭🇰 香港 2, server: hk1.v3.zz.cn.fuckword.club, port: 47605, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hk1.v3.zz.cn.fuckword.club, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: 118.107.244.112, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 香港 4, server: 3.hk.zz.xxxxx.x-t-fuckword.network, port: 36681, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 5, server: 18.163.112.47, port: 8080, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Download, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 香港 6, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.sg.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国, server: ngzyd-1.okex-tradebot.xyz, port: 30010, type: vmess, uuid: 41da5759-ee05-4ddb-b0c9-74f5abb69e01, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇺🇲 美国, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 41da5759-ee05-4ddb-b0c9-74f5abb69e01, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇭🇰 香港 7, server: rxzgzq.moox.icu, port: 34000, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 🇮🇳 印度, server: 172.105.63.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 新加坡 2, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 41da5759-ee05-4ddb-b0c9-74f5abb69e01, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇮🇳 印度 2, server: 192.46.211.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇮🇳 印度 3, server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇳 印度 4, server: 172.105.42.160, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇳 印度 5, server: 172.105.55.72, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇮🇳 印度 6, server: 172.105.42.160, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇮🇳 印度 7, server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇮🇳 印度 8, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 8, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 9, server: 18.162.56.143, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.56.143}}
-  - {name: 🇭🇰 香港 10, server: 3.jp.zz.xxxxx.x-t-fuckword.network, port: 36675, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 11, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇭🇰 香港 12, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇺🇲 美国 2, server: us1.np.qjnodeip.xyz, port: 10016, type: vmess, uuid: de25d7e1-9aef-45ae-a733-df1db2809fc2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 3, server: us1.np.qjnodeip.xyz, port: 10016, type: vmess, uuid: 6a4c71e0-7fd6-4a2b-b377-8e96c475a02b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 4, server: us1.np.qjnodeip.xyz, port: 10016, type: vmess, uuid: c0e0c7dd-1104-448a-ac2a-276ed9a7d021, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 13, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇭🇰 香港 14, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: 56a60bab-bcb5-4408-a956-59cb9987a784, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 波兰, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本, server: icajm.moox.icu, port: 40050, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 香港, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇸🇬 新加坡, server: icajm.moox.icu, port: 34016, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: awssg.xlanfly.xyz}}
+  - {name: 🇸🇬 新加坡 2, server: icajm.moox.icu, port: 34019, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: do403.xlanfly.xyz}}
+  - {name: 🇨🇳 台湾, server: rxzgzq.moox.icu, port: 41025, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇭🇰 香港 2, server: 52.175.121.142, port: 80, type: vmess, uuid: 16bae855-741b-3020-ac6f-3d793bb6196c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.121.142}}
+  - {name: 🇭🇰 香港 3, server: 52.229.167.3, port: 80, type: vmess, uuid: 16bae855-741b-3020-ac6f-3d793bb6196c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.167.3}}
+  - {name: 🇭🇰 香港 4, server: 3.jp.zz.xxxxx.x-t-fuckword.network, port: 36675, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 5, server: hk1.v3.zz.cn.fuckword.club, port: 47605, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hk1.v3.zz.cn.fuckword.club, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 6, server: 52.229.150.60, port: 80, type: vmess, uuid: 16bae855-741b-3020-ac6f-3d793bb6196c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇨🇳 台湾 2, server: 2.58.242.43, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇭🇰 香港 7, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.sg.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 3, server: 2.58.242.43, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾 4, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇯🇵 日本, server: 52.80.255.101, port: 57201, type: vmess, uuid: e4936684-1b09-400c-943b-0037ebf162de, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
+  - {name: 🇭🇰 香港 8, server: 18.163.112.47, port: 8080, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Download, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 香港 9, server: 2.jp.zz.xxxxx.x-t-fuckword.network, port: 36671, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 2.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇮🇳 印度, server: 172.105.42.160, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港 10, server: 3.hk.zz.xxxxx.x-t-fuckword.network, port: 36681, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 5, server: 2.58.242.43, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾 6, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度 2, server: 172.105.42.160, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度 3, server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度 4, server: 172.105.55.72, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 台湾 7, server: 2.58.242.43, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇮🇳 印度 5, server: 192.46.211.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港 11, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 8, server: 2.58.242.43, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇮🇳 印度 6, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港 12, server: cw.cwzz.tk, port: 18045, type: vmess, uuid: 16bae855-741b-3020-ac6f-3d793bb6196c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cw.cwzz.tk}}
+  - {name: 🇮🇳 印度 7, server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇬🇧 英国, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 新加坡 3, server: icajm.moox.icu, port: 40007, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sgnf.xlanfly.xyz}}
-  - {name: 🇬🇧 英国 2, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇳 台湾, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 41da5759-ee05-4ddb-b0c9-74f5abb69e01, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇭🇰 香港 15, server: 2.jp.zz.xxxxx.x-t-fuckword.network, port: 36671, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 2.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 3, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 5, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 挪威, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 英国 4, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国, server: 111.6.76.34, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-us2, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇩🇰 丹麦, server: 89.45.7.51, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇫🇷 法国, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国 2, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 波兰, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国 3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 2, server: 120.232.41.42, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-us2, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇮🇳 印度 8, server: 172.105.63.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇨🇦 加拿大, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 2, server: 198.57.27.238, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 新加坡 4, server: icajm.moox.icu, port: 34016, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: awssg.xlanfly.xyz}}
+  - {name: 🇨🇦 加拿大 2, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 欧洲, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国 4, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国 3, server: 120.232.41.42, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-us2, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇲 美国 4, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 3, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 5, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 欧洲 2, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇦🇹 奥地利, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲 3, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 4, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 6, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港 13, server: 18.162.56.143, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.56.143}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -417,58 +403,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲
       - 🇭🇰 香港
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇨🇳 台湾
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
       - 🇭🇰 香港 6
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
+      - 🇨🇳 台湾 2
       - 🇭🇰 香港 7
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇯🇵 日本
+      - 🇭🇰 香港 8
+      - 🇭🇰 香港 9
       - 🇮🇳 印度
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 10
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
       - 🇮🇳 印度 4
+      - 🇨🇳 台湾 7
       - 🇮🇳 印度 5
-      - 🇮🇳 印度 6
-      - 🇮🇳 印度 7
-      - 🇮🇳 印度 8
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
       - 🇭🇰 香港 11
+      - 🇨🇳 台湾 8
+      - 🇮🇳 印度 6
       - 🇭🇰 香港 12
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇭🇰 香港 13
-      - 🇭🇰 香港 14
-      - 波兰
-      - 🇯🇵 日本
+      - 🇮🇳 印度 7
       - 🇬🇧 英国
-      - 🇸🇬 新加坡 3
-      - 🇬🇧 英国 2
-      - 🇫🇷 法国
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 15
-      - 🇬🇧 英国 3
-      - 🇺🇲 美国 5
-      - 挪威
-      - 🇬🇧 英国 4
+      - 🇺🇲 美国
       - 🇩🇰 丹麦
+      - 🇫🇷 法国
+      - 🇬🇧 英国 2
+      - 波兰
+      - 🇬🇧 英国 3
+      - 🇺🇲 美国 2
+      - 🇮🇳 印度 8
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
-      - 🇸🇬 新加坡 4
+      - 欧洲
+      - 🇬🇧 英国 4
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇨🇦 加拿大 3
+      - 🇺🇲 美国 5
       - 欧洲 2
       - 🇦🇹 奥地利
-      - 🇨🇦 加拿大 3
-      - 欧洲 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 6
+      - 🇭🇰 香港 13
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
