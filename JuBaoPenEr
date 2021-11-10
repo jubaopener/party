@@ -1,295 +1,589 @@
 proxies:
-  - {name: 🇺🇲 美国, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 欧洲, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 2, server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 欧洲 2, server: 134.195.196.179, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 3, server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲 3, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 美国 4, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲 4, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 5, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 6, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲 5, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 美国 7, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 8, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 9, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 10, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 阿塞拜疆, server: 62.212.239.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇲 美国 11, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 12, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 13, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 14, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇲 美国 15, server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 16, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 17, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 18, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 19, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 20, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 21, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 22, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 23, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 24, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇦🇺 澳大利亚, server: 172.105.167.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 3, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 4, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 25, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 由零开始YouTube, server: 00.cn2.rocketdns.xyz, port: 65007, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 由零开始YouTube 2, server: 00.cn1.rocketdns.xyz, port: 65015, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 3, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 由零开始YouTube 4, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 5, server: 00.cn1.rocketdns.xyz, port: 65006, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 6, server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: 由零开始YouTube 7, server: gd.cm-2-cf.fevers.cyou, port: 30090, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-hgc, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: 由零开始YouTube 8, server: cw.cwzz.tk, port: 18045, type: vmess, uuid: eb1f3473-f1af-3e36-8c05-d84be468c8fa, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cw.cwzz.tk}}
+  - {name: 由零开始YouTube 9, server: 89.46.223.191, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 由零开始YouTube 10, server: 217.146.83.66, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 由零开始YouTube 11, server: hn.cu-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: 由零开始YouTube 12, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 由零开始YouTube 13, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 由零开始YouTube 14, server: 195.181.166.225, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 由零开始YouTube 15, server: 217.146.83.66, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 由零开始YouTube 16, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 由零开始YouTube 17, server: 217.146.83.66, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 由零开始YouTube 18, server: 195.181.166.225, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 由零开始YouTube 19, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 由零开始YouTube 20, server: 217.146.83.66, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 由零开始YouTube 21, server: 217.146.83.66, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 由零开始YouTube 22, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 由零开始YouTube 23, server: 217.146.83.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 由零开始YouTube 24, server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
+  - {name: 由零开始YouTube 25, server: 89.46.223.186, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 由零开始YouTube 26, server: 89.46.223.79, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 由零开始YouTube 27, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 由零开始YouTube 28, server: 89.46.223.71, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 由零开始YouTube 29, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 30, server: 89.46.223.242, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 由零开始YouTube 31, server: 89.46.223.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 由零开始YouTube 32, server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 由零开始YouTube 33, server: 107.189.13.173, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
+  - {name: 由零开始YouTube 34, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 由零开始YouTube 35, server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 由零开始YouTube 36, server: 89.46.223.244, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 由零开始YouTube 37, server: 193.176.86.196, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 由零开始YouTube 38, server: 217.146.83.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 由零开始YouTube 39, server: 89.46.223.79, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 由零开始YouTube 40, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 由零开始YouTube 41, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 由零开始YouTube 42, server: 89.46.223.238, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 由零开始YouTube 43, server: 89.46.223.236, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 由零开始YouTube 44, server: 89.46.223.182, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 由零开始YouTube 45, server: 89.46.223.93, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 由零开始YouTube 46, server: 89.46.223.57, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 由零开始YouTube 47, server: 89.46.223.246, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 由零开始YouTube 48, server: 89.46.223.59, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 由零开始YouTube 49, server: 217.146.83.70, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 由零开始YouTube 50, server: 89.46.223.71, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 由零开始YouTube 51, server: 89.46.223.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 由零开始YouTube 52, server: 89.46.223.225, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 由零开始YouTube 53, server: 89.46.223.242, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 由零开始YouTube 54, server: 89.46.223.97, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 由零开始YouTube 55, server: 89.46.223.67, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 由零开始YouTube 56, server: f.xxyu.xyz, port: 8080, type: vmess, uuid: f2cba7b0-97f0-4b9a-ef6a-b0e183ff3d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: f.xxyu.xyz}}
+  - {name: 由零开始YouTube 57, server: 89.46.223.93, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 由零开始YouTube 58, server: 89.46.223.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 由零开始YouTube 59, server: 217.146.83.70, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 由零开始YouTube 60, server: 89.46.223.61, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 由零开始YouTube 61, server: 89.46.223.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 由零开始YouTube 62, server: 89.46.223.105, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 由零开始YouTube 63, server: 89.46.223.242, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 由零开始YouTube 64, server: 89.46.223.65, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 由零开始YouTube 65, server: 217.146.83.70, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 由零开始YouTube 66, server: 217.146.83.70, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 由零开始YouTube 67, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 由零开始YouTube 68, server: 89.46.223.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 由零开始YouTube 69, server: 89.46.223.186, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 由零开始YouTube 70, server: 89.46.223.105, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 由零开始YouTube 71, server: 89.46.223.65, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 由零开始YouTube 72, server: 89.46.223.61, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 由零开始YouTube 73, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 由零开始YouTube 74, server: 89.46.223.57, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 由零开始YouTube 75, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: 021e2c68-cc66-3976-aec1-9124d8f75f8f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}}
+  - {name: 由零开始YouTube 76, server: 217.146.83.70, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 由零开始YouTube 77, server: 217.146.83.70, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 由零开始YouTube 78, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 由零开始YouTube 79, server: 89.46.223.77, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -312,43 +606,85 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国
-      - 欧洲
-      - 🇫🇷 法国
-      - 🇺🇲 美国 2
-      - 欧洲 2
-      - 🇺🇲 美国 3
-      - 欧洲 3
-      - 🇺🇲 美国 4
-      - 欧洲 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 欧洲 5
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 阿塞拜疆
-      - 🇺🇲 美国 11
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇺🇲 美国 14
-      - 🇨🇦 加拿大
-      - 🇺🇲 美国 15
-      - 🇺🇲 美国 16
-      - 🇺🇲 美国 17
-      - 🇺🇲 美国 18
-      - 🇺🇲 美国 19
-      - 🇨🇦 加拿大 2
-      - 🇺🇲 美国 20
-      - 🇺🇲 美国 21
-      - 🇺🇲 美国 22
-      - 🇺🇲 美国 23
-      - 🇺🇲 美国 24
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大 3
-      - 🇨🇦 加拿大 4
-      - 🇺🇲 美国 25
+      - 由零开始YouTube
+      - 由零开始YouTube 2
+      - 由零开始YouTube 3
+      - 由零开始YouTube 4
+      - 由零开始YouTube 5
+      - 由零开始YouTube 6
+      - 由零开始YouTube 7
+      - 由零开始YouTube 8
+      - 由零开始YouTube 9
+      - 由零开始YouTube 10
+      - 由零开始YouTube 11
+      - 由零开始YouTube 12
+      - 由零开始YouTube 13
+      - 由零开始YouTube 14
+      - 由零开始YouTube 15
+      - 由零开始YouTube 16
+      - 由零开始YouTube 17
+      - 由零开始YouTube 18
+      - 由零开始YouTube 19
+      - 由零开始YouTube 20
+      - 由零开始YouTube 21
+      - 由零开始YouTube 22
+      - 由零开始YouTube 23
+      - 由零开始YouTube 24
+      - 由零开始YouTube 25
+      - 由零开始YouTube 26
+      - 由零开始YouTube 27
+      - 由零开始YouTube 28
+      - 由零开始YouTube 29
+      - 由零开始YouTube 30
+      - 由零开始YouTube 31
+      - 由零开始YouTube 32
+      - 由零开始YouTube 33
+      - 由零开始YouTube 34
+      - 由零开始YouTube 35
+      - 由零开始YouTube 36
+      - 由零开始YouTube 37
+      - 由零开始YouTube 38
+      - 由零开始YouTube 39
+      - 由零开始YouTube 40
+      - 由零开始YouTube 41
+      - 由零开始YouTube 42
+      - 由零开始YouTube 43
+      - 由零开始YouTube 44
+      - 由零开始YouTube 45
+      - 由零开始YouTube 46
+      - 由零开始YouTube 47
+      - 由零开始YouTube 48
+      - 由零开始YouTube 49
+      - 由零开始YouTube 50
+      - 由零开始YouTube 51
+      - 由零开始YouTube 52
+      - 由零开始YouTube 53
+      - 由零开始YouTube 54
+      - 由零开始YouTube 55
+      - 由零开始YouTube 56
+      - 由零开始YouTube 57
+      - 由零开始YouTube 58
+      - 由零开始YouTube 59
+      - 由零开始YouTube 60
+      - 由零开始YouTube 61
+      - 由零开始YouTube 62
+      - 由零开始YouTube 63
+      - 由零开始YouTube 64
+      - 由零开始YouTube 65
+      - 由零开始YouTube 66
+      - 由零开始YouTube 67
+      - 由零开始YouTube 68
+      - 由零开始YouTube 69
+      - 由零开始YouTube 70
+      - 由零开始YouTube 71
+      - 由零开始YouTube 72
+      - 由零开始YouTube 73
+      - 由零开始YouTube 74
+      - 由零开始YouTube 75
+      - 由零开始YouTube 76
+      - 由零开始YouTube 77
+      - 由零开始YouTube 78
+      - 由零开始YouTube 79
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
