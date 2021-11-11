@@ -1,83 +1,95 @@
 proxies:
-  - {name: 由零开始YouTube, server: 00.cn2.rocketdns.xyz, port: 65007, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 由零开始YouTube, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
   - {name: 由零开始YouTube 2, server: 00.cn1.rocketdns.xyz, port: 65015, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
   - {name: 由零开始YouTube 3, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: 由零开始YouTube 4, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 由零开始YouTube 5, server: 00.cn1.rocketdns.xyz, port: 65006, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 由零开始YouTube 6, server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
-  - {name: 由零开始YouTube 7, server: gd.cm-2-cf.fevers.cyou, port: 30090, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-hgc, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
-  - {name: 由零开始YouTube 8, server: cw.cwzz.tk, port: 18045, type: vmess, uuid: eb1f3473-f1af-3e36-8c05-d84be468c8fa, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cw.cwzz.tk}}
-  - {name: 由零开始YouTube 9, server: 89.46.223.191, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 由零开始YouTube 10, server: 217.146.83.66, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 由零开始YouTube 11, server: hn.cu-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
-  - {name: 由零开始YouTube 12, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: 由零开始YouTube 13, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 由零开始YouTube 14, server: 195.181.166.225, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 由零开始YouTube 15, server: 217.146.83.66, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 由零开始YouTube 16, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 由零开始YouTube 17, server: 217.146.83.66, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 由零开始YouTube 18, server: 195.181.166.225, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 由零开始YouTube 19, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 由零开始YouTube 20, server: 217.146.83.66, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 由零开始YouTube 21, server: 217.146.83.66, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 由零开始YouTube 22, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 由零开始YouTube 23, server: 217.146.83.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 由零开始YouTube 24, server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
-  - {name: 由零开始YouTube 25, server: 89.46.223.186, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: 由零开始YouTube 26, server: 89.46.223.79, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 由零开始YouTube 27, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 由零开始YouTube 28, server: 89.46.223.71, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 由零开始YouTube 29, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 由零开始YouTube 30, server: 89.46.223.242, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 由零开始YouTube 31, server: 89.46.223.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 由零开始YouTube 32, server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 由零开始YouTube 33, server: 107.189.13.173, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
-  - {name: 由零开始YouTube 34, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 由零开始YouTube 35, server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 由零开始YouTube 36, server: 89.46.223.244, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 由零开始YouTube 37, server: 193.176.86.196, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 由零开始YouTube 38, server: 217.146.83.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 由零开始YouTube 39, server: 89.46.223.79, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 由零开始YouTube 40, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 由零开始YouTube 41, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 由零开始YouTube 42, server: 89.46.223.238, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 由零开始YouTube 43, server: 89.46.223.236, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 由零开始YouTube 44, server: 89.46.223.182, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 由零开始YouTube 45, server: 89.46.223.93, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 由零开始YouTube 46, server: 89.46.223.57, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 由零开始YouTube 47, server: 89.46.223.246, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 由零开始YouTube 48, server: 89.46.223.59, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 由零开始YouTube 49, server: 217.146.83.70, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 由零开始YouTube 50, server: 89.46.223.71, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 由零开始YouTube 51, server: 89.46.223.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 由零开始YouTube 52, server: 89.46.223.225, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
-  - {name: 由零开始YouTube 53, server: 89.46.223.242, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 由零开始YouTube 54, server: 89.46.223.97, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 由零开始YouTube 55, server: 89.46.223.67, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 由零开始YouTube 56, server: f.xxyu.xyz, port: 8080, type: vmess, uuid: f2cba7b0-97f0-4b9a-ef6a-b0e183ff3d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: f.xxyu.xyz}}
-  - {name: 由零开始YouTube 57, server: 89.46.223.93, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 由零开始YouTube 58, server: 89.46.223.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 由零开始YouTube 59, server: 217.146.83.70, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 由零开始YouTube 60, server: 89.46.223.61, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 由零开始YouTube 61, server: 89.46.223.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 由零开始YouTube 62, server: 89.46.223.105, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 由零开始YouTube 63, server: 89.46.223.242, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 由零开始YouTube 64, server: 89.46.223.65, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 由零开始YouTube 65, server: 217.146.83.70, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 由零开始YouTube 66, server: 217.146.83.70, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 由零开始YouTube 67, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: 由零开始YouTube 68, server: 89.46.223.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 由零开始YouTube 69, server: 89.46.223.186, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 由零开始YouTube 70, server: 89.46.223.105, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 由零开始YouTube 71, server: 89.46.223.65, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 由零开始YouTube 72, server: 89.46.223.61, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 由零开始YouTube 73, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 由零开始YouTube 74, server: 89.46.223.57, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 由零开始YouTube 75, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: 021e2c68-cc66-3976-aec1-9124d8f75f8f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}}
-  - {name: 由零开始YouTube 76, server: 217.146.83.70, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 由零开始YouTube 77, server: 217.146.83.70, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 由零开始YouTube 78, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 由零开始YouTube 79, server: 89.46.223.77, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 由零开始YouTube 4, server: 00.cn1.rocketdns.xyz, port: 65006, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 5, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 6, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 7, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 8, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 由零开始YouTube 9, server: 303.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 由零开始YouTube 10, server: 156.146.33.86, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 由零开始YouTube 11, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
+  - {name: 由零开始YouTube 12, server: 156.146.62.37, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 由零开始YouTube 13, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 由零开始YouTube 14, server: 156.146.62.37, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 由零开始YouTube 15, server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 由零开始YouTube 16, server: 156.146.33.74, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 由零开始YouTube 17, server: 13.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 由零开始YouTube 18, server: 156.146.62.37, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 由零开始YouTube 19, server: 122.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 20, server: 10.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 由零开始YouTube 21, server: 156.146.62.37, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 由零开始YouTube 22, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 由零开始YouTube 23, server: 193.176.86.196, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 由零开始YouTube 24, server: 112.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 25, server: 217.146.83.70, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 由零开始YouTube 26, server: 217.146.83.70, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 由零开始YouTube 27, server: 217.146.83.70, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 由零开始YouTube 28, server: 89.46.223.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 由零开始YouTube 29, server: 217.146.83.70, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 由零开始YouTube 30, server: 193.176.86.198, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 由零开始YouTube 31, server: 132.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 32, server: 102.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 33, server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 由零开始YouTube 34, server: 217.146.83.70, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 由零开始YouTube 35, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 由零开始YouTube 36, server: 217.146.83.66, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 由零开始YouTube 37, server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 由零开始YouTube 38, server: 107.150.94.12, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 由零开始YouTube 39, server: 217.146.83.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 由零开始YouTube 40, server: 217.146.82.190, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 由零开始YouTube 41, server: 217.146.83.70, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 由零开始YouTube 42, server: 193.176.86.198, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 由零开始YouTube 43, server: 217.146.83.66, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 由零开始YouTube 44, server: 217.146.83.70, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 由零开始YouTube 45, server: 217.146.83.66, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 由零开始YouTube 46, server: 00.cn1.rocketdns.xyz, port: 65012, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 由零开始YouTube 47, server: 8.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 由零开始YouTube 48, server: 217.146.83.70, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 由零开始YouTube 49, server: 12.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 由零开始YouTube 50, server: 217.146.83.70, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 由零开始YouTube 51, server: 193.176.86.196, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 由零开始YouTube 52, server: 107.150.94.14, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 由零开始YouTube 53, server: 217.146.83.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 由零开始YouTube 54, server: 107.150.94.14, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 由零开始YouTube 55, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 由零开始YouTube 56, server: 212.102.54.163, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 由零开始YouTube 57, server: 107.150.94.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 由零开始YouTube 58, server: 193.176.86.196, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 由零开始YouTube 59, server: 217.146.83.70, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 由零开始YouTube 60, server: 185.108.106.175, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 由零开始YouTube 61, server: 212.102.54.163, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 由零开始YouTube 62, server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 由零开始YouTube 63, server: 217.146.83.70, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 由零开始YouTube 64, server: 217.146.83.66, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 由零开始YouTube 65, server: 185.108.106.175, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 由零开始YouTube 66, server: 212.102.54.163, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 由零开始YouTube 67, server: 193.176.86.196, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 由零开始YouTube 68, server: 185.108.106.172, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 由零开始YouTube 69, server: 185.108.106.172, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 由零开始YouTube 70, server: 185.108.106.172, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 由零开始YouTube 71, server: 185.108.106.175, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 由零开始YouTube 72, server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 由零开始YouTube 73, server: 193.176.86.198, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 由零开始YouTube 74, server: 185.108.106.172, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 由零开始YouTube 75, server: 217.146.83.66, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 由零开始YouTube 76, server: 185.108.106.175, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 由零开始YouTube 77, server: 85.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 78, server: 185.108.106.175, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 由零开始YouTube 79, server: 134.122.53.58, port: 1915, type: vmess, uuid: a92085ce-3148-4a48-9fe6-0a0763fbb5f4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 134.122.53.58}}
+  - {name: 由零开始YouTube 80, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 由零开始YouTube 81, server: 143.198.58.57, port: 1111, type: vmess, uuid: a92085ce-3148-4a48-9fe6-0a0763fbb5f4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.58.57}}
+  - {name: 由零开始YouTube 82, server: 185.124.240.146, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 由零开始YouTube 83, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 由零开始YouTube 84, server: 185.124.240.146, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 由零开始YouTube 85, server: 84.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 由零开始YouTube 86, server: 193.176.86.196, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 由零开始YouTube 87, server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 9d8349dd-027c-41d1-9d24-f428995c926b, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 由零开始YouTube 88, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 由零开始YouTube 89, server: 185.124.240.146, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 由零开始YouTube 90, server: 185.124.240.146, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 由零开始YouTube 91, server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -163,6 +175,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -247,6 +271,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -332,6 +368,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: 📲 电报信息
     type: select
     proxies:
@@ -416,6 +464,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -500,6 +560,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -584,6 +656,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -685,6 +769,18 @@ proxy-groups:
       - 由零开始YouTube 77
       - 由零开始YouTube 78
       - 由零开始YouTube 79
+      - 由零开始YouTube 80
+      - 由零开始YouTube 81
+      - 由零开始YouTube 82
+      - 由零开始YouTube 83
+      - 由零开始YouTube 84
+      - 由零开始YouTube 85
+      - 由零开始YouTube 86
+      - 由零开始YouTube 87
+      - 由零开始YouTube 88
+      - 由零开始YouTube 89
+      - 由零开始YouTube 90
+      - 由零开始YouTube 91
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
