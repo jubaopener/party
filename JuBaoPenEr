@@ -1,729 +1,729 @@
 proxies:
-  - {name: YouTube-由零开始, server: 195.181.166.225, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: YouTube-由零开始 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: YouTube-由零开始 3, server: 156.146.33.74, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: YouTube-由零开始 4, server: 195.181.166.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: YouTube-由零开始 5, server: 195.181.166.225, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: YouTube-由零开始 6, server: 82.102.16.102, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: YouTube-由零开始 7, server: 195.181.166.225, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: YouTube-由零开始 8, server: 194.110.115.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: YouTube-由零开始 9, server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: YouTube-由零开始 10, server: 194.110.115.86, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: YouTube-由零开始 11, server: 195.181.166.225, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: YouTube-由零开始 12, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: YouTube-由零开始 13, server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: YouTube-由零开始 14, server: 195.181.166.225, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: YouTube-由零开始 15, server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: YouTube-由零开始 16, server: 195.181.166.225, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: YouTube-由零开始 17, server: 212.102.54.163, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: YouTube-由零开始 18, server: 185.108.106.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: YouTube-由零开始 19, server: 185.108.106.175, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: YouTube-由零开始 20, server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: YouTube-由零开始 21, server: 185.108.106.175, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: YouTube-由零开始 22, server: 185.108.106.172, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: YouTube-由零开始 23, server: 185.108.106.175, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: YouTube-由零开始 24, server: 185.108.106.175, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: YouTube-由零开始 25, server: 185.108.106.175, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: YouTube-由零开始 26, server: 185.108.106.172, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: YouTube-由零开始 27, server: 37.120.213.4, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: YouTube-由零开始 28, server: 188.95.55.111, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: YouTube-由零开始 29, server: 185.108.106.175, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: YouTube-由零开始 30, server: 185.108.106.175, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: YouTube-由零开始 31, server: 185.108.106.172, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: YouTube-由零开始 32, server: 185.108.106.175, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: YouTube-由零开始 33, server: 156.146.33.86, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: YouTube-由零开始 34, server: 185.108.106.175, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: YouTube-由零开始 35, server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: YouTube-由零开始 36, server: 156.146.62.37, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: YouTube-由零开始 37, server: 193.176.86.198, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: YouTube-由零开始 38, server: 789.out04.nodeserver.top, port: 39069, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: YouTube-由零开始 39, server: 156.146.33.86, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: YouTube-由零开始 40, server: 156.146.33.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: YouTube-由零开始 41, server: 156.146.33.74, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: YouTube-由零开始 42, server: 156.146.33.86, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: YouTube-由零开始 43, server: 195.181.166.225, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: YouTube-由零开始 44, server: 195.181.166.225, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: YouTube-由零开始 45, server: 195.181.166.225, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: YouTube-由零开始 46, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: YouTube-由零开始 47, server: 156.146.33.86, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: YouTube-由零开始 48, server: in1.futi.online, port: 443, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
-  - {name: YouTube-由零开始 49, server: 195.181.166.225, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: YouTube-由零开始 50, server: 195.181.166.225, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: YouTube-由零开始 51, server: 195.181.166.225, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: YouTube-由零开始 52, server: 195.181.166.225, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: YouTube-由零开始 53, server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: YouTube-由零开始 54, server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: YouTube-由零开始 55, server: 156.146.62.37, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: YouTube-由零开始 56, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: YouTube-由零开始 57, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: YouTube-由零开始 58, server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: YouTube-由零开始 59, server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: YouTube-由零开始 60, server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: YouTube-由零开始 61, server: 156.146.62.37, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: YouTube-由零开始 62, server: 156.146.62.37, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: YouTube-由零开始 63, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: YouTube-由零开始 64, server: 185.76.9.56, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: YouTube-由零开始 65, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: YouTube-由零开始 66, server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: YouTube-由零开始 67, server: 193.176.86.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: YouTube-由零开始 68, server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: YouTube-由零开始 69, server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: YouTube-由零开始 70, server: 107.150.94.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: YouTube-由零开始 71, server: 195.181.166.225, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: YouTube-由零开始 72, server: 193.176.86.198, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: YouTube-由零开始 73, server: 35.155.132.212, port: 8878, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 35.155.132.212}}
-  - {name: YouTube-由零开始 74, server: 212.102.54.161, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: YouTube-由零开始 75, server: free001.luoliyun.net, port: 50001, type: trojan, password: e6a7f60b-a794-4311-97d4-278f2acfbec2, sni: free001.luoliyun.net, skip-cert-verify: false}
-  - {name: YouTube-由零开始 76, server: 212.102.54.163, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: YouTube-由零开始 77, server: 212.102.54.163, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: YouTube-由零开始 78, server: 156.146.62.37, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: YouTube-由零开始 79, server: 201.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: YouTube-由零开始 80, server: 156.146.62.37, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: YouTube-由零开始 81, server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com, skip-cert-verify: false}
-  - {name: YouTube-由零开始 82, server: bgp.okvpn.xyz, port: 33505, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bgp.okvpn.xyz}}
-  - {name: YouTube-由零开始 83, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
-  - {name: YouTube-由零开始 84, server: kr3.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: YouTube-由零开始 85, server: bgp.okvpn.xyz, port: 33506, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bgp.okvpn.xyz}}
-  - {name: YouTube-由零开始 86, server: b.transit.t.qjnodeip.xyz, port: 56642, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HGzsmqib01A, ws-headers: {Host: hg03.usarugg.xyz}}
-  - {name: YouTube-由零开始 87, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: YouTube-由零开始 88, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
-  - {name: YouTube-由零开始 89, server: 789.out03.nodeserver.top, port: 39070, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: YouTube-由零开始 90, server: 13.94.45.63, port: 80, type: vmess, uuid: a9542125-cd5a-49a8-a164-2cb12a579228, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: yaohuo.me}}
-  - {name: YouTube-由零开始 91, server: a.transit.t.qjnodeip.xyz, port: 52161, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Xjibjp04e, ws-headers: {Host: xjp04.cswtw.xyz}}
-  - {name: YouTube-由零开始 92, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: YouTube-由零开始 93, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: YouTube-由零开始 94, server: b.transit.t.qjnodeip.xyz, port: 40249, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /JS6, ws-headers: {Host: usa06.sdhexzy.xyz}}
-  - {name: YouTube-由零开始 95, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: YouTube-由零开始 96, server: kr4.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
-  - {name: YouTube-由零开始 97, server: 18.196.13.200, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.196.13.200}}
-  - {name: YouTube-由零开始 98, server: kr3.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: YouTube-由零开始 99, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿, server: 195.181.166.225, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 聚宝盆儿 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 聚宝盆儿 3, server: 156.146.33.74, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 聚宝盆儿 4, server: 195.181.166.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 聚宝盆儿 5, server: 195.181.166.225, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 聚宝盆儿 6, server: 82.102.16.102, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 聚宝盆儿 7, server: 195.181.166.225, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 聚宝盆儿 8, server: 194.110.115.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 聚宝盆儿 9, server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 聚宝盆儿 10, server: 194.110.115.86, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 聚宝盆儿 11, server: 195.181.166.225, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 聚宝盆儿 12, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 聚宝盆儿 13, server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 聚宝盆儿 14, server: 195.181.166.225, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 聚宝盆儿 15, server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 聚宝盆儿 16, server: 195.181.166.225, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 聚宝盆儿 17, server: 212.102.54.163, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 聚宝盆儿 18, server: 185.108.106.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 聚宝盆儿 19, server: 185.108.106.175, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 聚宝盆儿 20, server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 聚宝盆儿 21, server: 185.108.106.175, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 聚宝盆儿 22, server: 185.108.106.172, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 聚宝盆儿 23, server: 185.108.106.175, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 聚宝盆儿 24, server: 185.108.106.175, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 聚宝盆儿 25, server: 185.108.106.175, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 聚宝盆儿 26, server: 185.108.106.172, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 聚宝盆儿 27, server: 37.120.213.4, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 聚宝盆儿 28, server: 188.95.55.111, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 聚宝盆儿 29, server: 185.108.106.175, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 聚宝盆儿 30, server: 185.108.106.175, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 聚宝盆儿 31, server: 185.108.106.172, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 聚宝盆儿 32, server: 185.108.106.175, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 聚宝盆儿 33, server: 156.146.33.86, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 聚宝盆儿 34, server: 185.108.106.175, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 聚宝盆儿 35, server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 聚宝盆儿 36, server: 156.146.62.37, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 聚宝盆儿 37, server: 193.176.86.198, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 聚宝盆儿 38, server: 789.out04.nodeserver.top, port: 39069, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 聚宝盆儿 39, server: 156.146.33.86, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 聚宝盆儿 40, server: 156.146.33.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 聚宝盆儿 41, server: 156.146.33.74, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 聚宝盆儿 42, server: 156.146.33.86, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 聚宝盆儿 43, server: 195.181.166.225, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 聚宝盆儿 44, server: 195.181.166.225, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 聚宝盆儿 45, server: 195.181.166.225, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 聚宝盆儿 46, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 聚宝盆儿 47, server: 156.146.33.86, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 聚宝盆儿 48, server: in1.futi.online, port: 443, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
+  - {name: 聚宝盆儿 49, server: 195.181.166.225, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 聚宝盆儿 50, server: 195.181.166.225, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: 聚宝盆儿 51, server: 195.181.166.225, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 聚宝盆儿 52, server: 195.181.166.225, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 聚宝盆儿 53, server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 聚宝盆儿 54, server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 聚宝盆儿 55, server: 156.146.62.37, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 聚宝盆儿 56, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 聚宝盆儿 57, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿 58, server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 聚宝盆儿 59, server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 聚宝盆儿 60, server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 聚宝盆儿 61, server: 156.146.62.37, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 聚宝盆儿 62, server: 156.146.62.37, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 聚宝盆儿 63, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿 64, server: 185.76.9.56, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 聚宝盆儿 65, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿 66, server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 聚宝盆儿 67, server: 193.176.86.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 聚宝盆儿 68, server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 聚宝盆儿 69, server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 聚宝盆儿 70, server: 107.150.94.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 聚宝盆儿 71, server: 195.181.166.225, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 聚宝盆儿 72, server: 193.176.86.198, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 聚宝盆儿 73, server: 35.155.132.212, port: 8878, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 35.155.132.212}}
+  - {name: 聚宝盆儿 74, server: 212.102.54.161, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 聚宝盆儿 75, server: free001.luoliyun.net, port: 50001, type: trojan, password: e6a7f60b-a794-4311-97d4-278f2acfbec2, sni: free001.luoliyun.net, skip-cert-verify: false}
+  - {name: 聚宝盆儿 76, server: 212.102.54.163, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 聚宝盆儿 77, server: 212.102.54.163, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 聚宝盆儿 78, server: 156.146.62.37, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 聚宝盆儿 79, server: 201.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 聚宝盆儿 80, server: 156.146.62.37, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 聚宝盆儿 81, server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com, skip-cert-verify: false}
+  - {name: 聚宝盆儿 82, server: bgp.okvpn.xyz, port: 33505, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bgp.okvpn.xyz}}
+  - {name: 聚宝盆儿 83, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
+  - {name: 聚宝盆儿 84, server: kr3.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: 聚宝盆儿 85, server: bgp.okvpn.xyz, port: 33506, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bgp.okvpn.xyz}}
+  - {name: 聚宝盆儿 86, server: b.transit.t.qjnodeip.xyz, port: 56642, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HGzsmqib01A, ws-headers: {Host: hg03.usarugg.xyz}}
+  - {name: 聚宝盆儿 87, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
+  - {name: 聚宝盆儿 88, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
+  - {name: 聚宝盆儿 89, server: 789.out03.nodeserver.top, port: 39070, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 聚宝盆儿 90, server: 13.94.45.63, port: 80, type: vmess, uuid: a9542125-cd5a-49a8-a164-2cb12a579228, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: yaohuo.me}}
+  - {name: 聚宝盆儿 91, server: a.transit.t.qjnodeip.xyz, port: 52161, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Xjibjp04e, ws-headers: {Host: xjp04.cswtw.xyz}}
+  - {name: 聚宝盆儿 92, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
+  - {name: 聚宝盆儿 93, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿 94, server: b.transit.t.qjnodeip.xyz, port: 40249, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /JS6, ws-headers: {Host: usa06.sdhexzy.xyz}}
+  - {name: 聚宝盆儿 95, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 聚宝盆儿 96, server: kr4.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
+  - {name: 聚宝盆儿 97, server: 18.196.13.200, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.196.13.200}}
+  - {name: 聚宝盆儿 98, server: kr3.futi.online, port: 2053, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: 聚宝盆儿 99, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -746,105 +746,105 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube-由零开始
-      - YouTube-由零开始 2
-      - YouTube-由零开始 3
-      - YouTube-由零开始 4
-      - YouTube-由零开始 5
-      - YouTube-由零开始 6
-      - YouTube-由零开始 7
-      - YouTube-由零开始 8
-      - YouTube-由零开始 9
-      - YouTube-由零开始 10
-      - YouTube-由零开始 11
-      - YouTube-由零开始 12
-      - YouTube-由零开始 13
-      - YouTube-由零开始 14
-      - YouTube-由零开始 15
-      - YouTube-由零开始 16
-      - YouTube-由零开始 17
-      - YouTube-由零开始 18
-      - YouTube-由零开始 19
-      - YouTube-由零开始 20
-      - YouTube-由零开始 21
-      - YouTube-由零开始 22
-      - YouTube-由零开始 23
-      - YouTube-由零开始 24
-      - YouTube-由零开始 25
-      - YouTube-由零开始 26
-      - YouTube-由零开始 27
-      - YouTube-由零开始 28
-      - YouTube-由零开始 29
-      - YouTube-由零开始 30
-      - YouTube-由零开始 31
-      - YouTube-由零开始 32
-      - YouTube-由零开始 33
-      - YouTube-由零开始 34
-      - YouTube-由零开始 35
-      - YouTube-由零开始 36
-      - YouTube-由零开始 37
-      - YouTube-由零开始 38
-      - YouTube-由零开始 39
-      - YouTube-由零开始 40
-      - YouTube-由零开始 41
-      - YouTube-由零开始 42
-      - YouTube-由零开始 43
-      - YouTube-由零开始 44
-      - YouTube-由零开始 45
-      - YouTube-由零开始 46
-      - YouTube-由零开始 47
-      - YouTube-由零开始 48
-      - YouTube-由零开始 49
-      - YouTube-由零开始 50
-      - YouTube-由零开始 51
-      - YouTube-由零开始 52
-      - YouTube-由零开始 53
-      - YouTube-由零开始 54
-      - YouTube-由零开始 55
-      - YouTube-由零开始 56
-      - YouTube-由零开始 57
-      - YouTube-由零开始 58
-      - YouTube-由零开始 59
-      - YouTube-由零开始 60
-      - YouTube-由零开始 61
-      - YouTube-由零开始 62
-      - YouTube-由零开始 63
-      - YouTube-由零开始 64
-      - YouTube-由零开始 65
-      - YouTube-由零开始 66
-      - YouTube-由零开始 67
-      - YouTube-由零开始 68
-      - YouTube-由零开始 69
-      - YouTube-由零开始 70
-      - YouTube-由零开始 71
-      - YouTube-由零开始 72
-      - YouTube-由零开始 73
-      - YouTube-由零开始 74
-      - YouTube-由零开始 75
-      - YouTube-由零开始 76
-      - YouTube-由零开始 77
-      - YouTube-由零开始 78
-      - YouTube-由零开始 79
-      - YouTube-由零开始 80
-      - YouTube-由零开始 81
-      - YouTube-由零开始 82
-      - YouTube-由零开始 83
-      - YouTube-由零开始 84
-      - YouTube-由零开始 85
-      - YouTube-由零开始 86
-      - YouTube-由零开始 87
-      - YouTube-由零开始 88
-      - YouTube-由零开始 89
-      - YouTube-由零开始 90
-      - YouTube-由零开始 91
-      - YouTube-由零开始 92
-      - YouTube-由零开始 93
-      - YouTube-由零开始 94
-      - YouTube-由零开始 95
-      - YouTube-由零开始 96
-      - YouTube-由零开始 97
-      - YouTube-由零开始 98
-      - YouTube-由零开始 99
+      - 聚宝盆儿
+      - 聚宝盆儿 2
+      - 聚宝盆儿 3
+      - 聚宝盆儿 4
+      - 聚宝盆儿 5
+      - 聚宝盆儿 6
+      - 聚宝盆儿 7
+      - 聚宝盆儿 8
+      - 聚宝盆儿 9
+      - 聚宝盆儿 10
+      - 聚宝盆儿 11
+      - 聚宝盆儿 12
+      - 聚宝盆儿 13
+      - 聚宝盆儿 14
+      - 聚宝盆儿 15
+      - 聚宝盆儿 16
+      - 聚宝盆儿 17
+      - 聚宝盆儿 18
+      - 聚宝盆儿 19
+      - 聚宝盆儿 20
+      - 聚宝盆儿 21
+      - 聚宝盆儿 22
+      - 聚宝盆儿 23
+      - 聚宝盆儿 24
+      - 聚宝盆儿 25
+      - 聚宝盆儿 26
+      - 聚宝盆儿 27
+      - 聚宝盆儿 28
+      - 聚宝盆儿 29
+      - 聚宝盆儿 30
+      - 聚宝盆儿 31
+      - 聚宝盆儿 32
+      - 聚宝盆儿 33
+      - 聚宝盆儿 34
+      - 聚宝盆儿 35
+      - 聚宝盆儿 36
+      - 聚宝盆儿 37
+      - 聚宝盆儿 38
+      - 聚宝盆儿 39
+      - 聚宝盆儿 40
+      - 聚宝盆儿 41
+      - 聚宝盆儿 42
+      - 聚宝盆儿 43
+      - 聚宝盆儿 44
+      - 聚宝盆儿 45
+      - 聚宝盆儿 46
+      - 聚宝盆儿 47
+      - 聚宝盆儿 48
+      - 聚宝盆儿 49
+      - 聚宝盆儿 50
+      - 聚宝盆儿 51
+      - 聚宝盆儿 52
+      - 聚宝盆儿 53
+      - 聚宝盆儿 54
+      - 聚宝盆儿 55
+      - 聚宝盆儿 56
+      - 聚宝盆儿 57
+      - 聚宝盆儿 58
+      - 聚宝盆儿 59
+      - 聚宝盆儿 60
+      - 聚宝盆儿 61
+      - 聚宝盆儿 62
+      - 聚宝盆儿 63
+      - 聚宝盆儿 64
+      - 聚宝盆儿 65
+      - 聚宝盆儿 66
+      - 聚宝盆儿 67
+      - 聚宝盆儿 68
+      - 聚宝盆儿 69
+      - 聚宝盆儿 70
+      - 聚宝盆儿 71
+      - 聚宝盆儿 72
+      - 聚宝盆儿 73
+      - 聚宝盆儿 74
+      - 聚宝盆儿 75
+      - 聚宝盆儿 76
+      - 聚宝盆儿 77
+      - 聚宝盆儿 78
+      - 聚宝盆儿 79
+      - 聚宝盆儿 80
+      - 聚宝盆儿 81
+      - 聚宝盆儿 82
+      - 聚宝盆儿 83
+      - 聚宝盆儿 84
+      - 聚宝盆儿 85
+      - 聚宝盆儿 86
+      - 聚宝盆儿 87
+      - 聚宝盆儿 88
+      - 聚宝盆儿 89
+      - 聚宝盆儿 90
+      - 聚宝盆儿 91
+      - 聚宝盆儿 92
+      - 聚宝盆儿 93
+      - 聚宝盆儿 94
+      - 聚宝盆儿 95
+      - 聚宝盆儿 96
+      - 聚宝盆儿 97
+      - 聚宝盆儿 98
+      - 聚宝盆儿 99
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
