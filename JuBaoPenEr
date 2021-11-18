@@ -1,1380 +1,953 @@
 proxies:
-  - {name: 🇺🇲 美国-聚宝盆儿, server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇺🇲 美国-聚宝盆儿 2, server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 斯洛伐克-聚宝盆儿, server: 185.76.8.218, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇲 美国-聚宝盆儿 3, server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
-  - {name: 🇺🇲 美国-聚宝盆儿 4, server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇲 美国-聚宝盆儿 5, server: 156.146.62.45, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇺🇲 美国-聚宝盆儿 6, server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 斯洛伐克-聚宝盆儿 2, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国-聚宝盆儿 7, server: 156.146.62.50, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇲 美国-聚宝盆儿 8, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 斯洛伐克-聚宝盆儿 3, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 斯洛伐克-聚宝盆儿 4, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 美国-聚宝盆儿 9, server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇬🇧 英国-聚宝盆儿, server: 217.146.83.70, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇳🇱 荷兰-聚宝盆儿, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: 🇺🇲 美国-聚宝盆儿 10, server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: 🇬🇧 英国-聚宝盆儿 2, server: 217.146.83.70, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇺🇲 美国-聚宝盆儿 11, server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇨🇳 中国-聚宝盆儿, server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国-聚宝盆儿, server: 82.102.16.102, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇬🇧 英国-聚宝盆儿 3, server: 217.146.82.202, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
-  - {name: 🇬🇧 英国-聚宝盆儿 4, server: 217.146.83.70, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 🇬🇧 英国-聚宝盆儿 5, server: 217.146.83.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 斯洛伐克-聚宝盆儿 5, server: 185.76.8.218, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 斯洛伐克 -聚宝盆儿, server: 185.76.8.218, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇲 美国-聚宝盆儿 12, server: 156.146.62.45, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇩🇪 德国-聚宝盆儿 2, server: 82.102.16.102, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 德国-聚宝盆儿 3, server: 82.102.16.102, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: -聚宝盆儿, server: 46.182.107.92, port: 443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.15770282.xyz}}
-  - {name: 🇩🇪 德国-聚宝盆儿 4, server: 82.102.16.102, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国-聚宝盆儿 6, server: 217.146.83.70, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇬🇧 英国-聚宝盆儿 7, server: 217.146.83.70, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇺🇲 美国-聚宝盆儿 13, server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇺🇲 美国-聚宝盆儿 14, server: 156.146.62.50, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇬🇧 英国-聚宝盆儿 8, server: 217.146.83.70, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇬🇧 英国-聚宝盆儿 9, server: 217.146.83.70, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 2, server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 3, server: 89.46.223.215, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇲 美国-聚宝盆儿 15, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇨🇳 中国-聚宝盆儿 2, server: 47.105.53.1, port: 31845, type: vmess, uuid: 3b7932fa-0fea-4682-8fb5-f42bd2dac957, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国-聚宝盆儿 16, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 4, server: 89.46.223.191, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇬🇧 英国-聚宝盆儿 10, server: 217.146.83.70, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 瑞典-聚宝盆儿, server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇬🇧 英国-聚宝盆儿 11, server: 217.146.83.70, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇺🇲 美国-聚宝盆儿 17, server: 156.146.33.66, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 中国-聚宝盆儿 3, server: 39.100.131.118, port: 40766, type: vmess, uuid: c244b0e1-57d9-4bfe-9de4-9315298e6fdf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国-聚宝盆儿 18, server: 156.146.62.45, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: 🇩🇪 德国-聚宝盆儿 5, server: 82.102.16.102, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 瑞典ouTube-由零开始, server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇹🇷 土耳其-聚宝盆儿, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 5, server: 89.46.223.242, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 6, server: 89.46.223.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇬🇧 英国-聚宝盆儿 12, server: 217.146.83.66, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇬🇧 英国-聚宝盆儿 13, server: 217.146.83.66, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇲 美国-聚宝盆儿 19, server: 156.146.33.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 7, server: 89.46.223.99, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: 🇬🇧 英国-聚宝盆儿 14, server: 217.146.83.70, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 美国-聚宝盆儿 20, server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 2, server: 107.150.94.12, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 8, server: 89.46.223.186, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 9, server: 89.46.223.67, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: 🇬🇧 英国-聚宝盆儿 15, server: 217.146.83.70, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 🇬🇧 英国-聚宝盆儿 16, server: 217.146.83.66, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 瑞典-聚宝盆儿 2, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇬🇧 英国-聚宝盆儿 17, server: 217.146.83.66, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇬🇧 英国-聚宝盆儿 18, server: 217.146.83.66, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 🇺🇲 美国-聚宝盆儿 21, server: 156.146.33.66, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇹🇷 土耳其-聚宝盆儿, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇹🇷 土耳其-聚宝盆儿 2, server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇹🇷 土耳其-聚宝盆儿 3, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 🇹🇷 土耳其-聚宝盆儿 4, server: 107.150.94.12, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇫🇷 法国-聚宝盆儿, server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 西班牙-聚宝盆儿, server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇮🇹 意大利-聚宝盆儿, server: 212.102.54.163, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 3, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇮🇹 意大利-聚宝盆儿 2, server: 212.102.54.161, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 中国-聚宝盆儿 4, server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 10, server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 瑞典-聚宝盆儿 3, server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇲 美国-聚宝盆儿 22, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 瑞典-聚宝盆儿 4, server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇺🇲 美国-聚宝盆儿 23, server: 156.146.33.66, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿, server: 91.219.215.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 4, server: 107.150.94.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 5, server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: -聚宝盆儿 2, server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇩🇪 德国-聚宝盆儿 6, server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇮🇹 意大利-聚宝盆儿 3, server: 212.102.54.161, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇮🇹 意大利-聚宝盆儿 4, server: 212.102.54.163, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇬🇧 英国-聚宝盆儿 19, server: 217.146.83.66, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇬🇧 英国-聚宝盆儿 20, server: 217.146.83.70, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 瑞典-聚宝盆儿 5, server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇨🇳 中国-聚宝盆儿 5, server: 47.99.142.242, port: 38497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇫🇷 法国-聚宝盆儿 2, server: 185.108.106.172, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国-聚宝盆儿 21, server: 217.146.83.70, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 6, server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 11, server: 89.46.223.242, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇫🇷 法国-聚宝盆儿 3, server: 185.108.106.172, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 2, server: 91.219.215.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 12, server: 89.46.223.87, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 3, server: 91.219.215.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇮🇹 意大利-聚宝盆儿 5, server: 212.102.54.163, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇮🇹 意大利-聚宝盆儿 6, server: 212.102.54.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: -聚宝盆儿, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 新加坡-聚宝盆儿, server: 13.75.52.74, port: 50313, type: vmess, uuid: b61ed2c4-3357-4add-92a8-060921e1a20e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇲 美国-聚宝盆儿, server: 156.146.62.45, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 🇺🇲 美国-聚宝盆儿 2, server: 156.146.62.45, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 🇺🇲 美国-聚宝盆儿 3, server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 🇺🇲 美国-聚宝盆儿 4, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇺🇲 美国-聚宝盆儿 5, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇺🇲 美国-聚宝盆儿 6, server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 🇺🇲 美国-聚宝盆儿 7, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 🇺🇲 美国-聚宝盆儿 8, server: 156.146.62.45, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 🇺🇲 美国-聚宝盆儿 9, server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇲 美国-聚宝盆儿 10, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇲 美国-聚宝盆儿 11, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国-聚宝盆儿 12, server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇲 美国-聚宝盆儿 13, server: 156.146.62.45, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇺🇲 美国-聚宝盆儿 14, server: 156.146.62.45, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇲 美国-聚宝盆儿 15, server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国-聚宝盆儿 16, server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 🇺🇲 美国-聚宝盆儿 17, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 美国-聚宝盆儿 18, server: 156.146.62.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 美国-聚宝盆儿 19, server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇲 美国-聚宝盆儿 20, server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇺🇲 美国-聚宝盆儿 21, server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: -聚宝盆儿 2, server: 156.146.62.45, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇷🇴 罗马尼亚-聚宝盆儿, server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 斯洛伐克-聚宝盆儿, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 斯洛伐克-聚宝盆儿 2, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 斯洛伐克-聚宝盆儿 3, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 斯洛伐克-聚宝盆儿 4, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 斯洛伐克-聚宝盆儿 5, server: 185.76.8.218, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 斯洛伐克-聚宝盆儿 6, server: 185.76.8.218, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 斯洛伐克-聚宝盆儿 7, server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 斯洛伐克-聚宝盆儿 8, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 斯洛伐克-聚宝盆儿 9, server: 185.76.8.218, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 斯洛伐克-聚宝盆儿 10, server: 185.76.8.218, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 斯洛伐克-聚宝盆儿 11, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 斯洛伐克-聚宝盆儿 12, server: 185.76.8.218, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 斯洛伐克-聚宝盆儿 13, server: 185.76.8.218, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 斯洛伐克-聚宝盆儿 14, server: 185.76.8.218, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 斯洛伐克-聚宝盆儿 15, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 斯洛伐克-聚宝盆儿 16, server: 185.76.8.218, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 斯洛伐克-聚宝盆儿 17, server: 185.76.8.218, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 斯洛伐克-聚宝盆儿 18, server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 斯洛伐克-聚宝盆儿 19, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 斯洛伐克-聚宝盆儿 20, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 斯洛伐克-聚宝盆儿 21, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 斯洛伐克 -聚宝盆儿, server: 185.76.8.218, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: -聚宝盆儿 3, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: -聚宝盆儿 4, server: 185.76.8.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: -聚宝盆儿 5, server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: -聚宝盆儿 6, server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: -聚宝盆儿 7, server: 185.76.8.218, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: -聚宝盆儿 8, server: 185.76.8.218, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: -聚宝盆儿 9, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: -聚宝盆儿 10, server: 185.76.8.218, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: -聚宝盆儿 11, server: 185.76.8.218, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: -聚宝盆儿 12, server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: -聚宝盆儿 13, server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 瑞典-聚宝盆儿, server: 185.76.9.56, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 瑞典-聚宝盆儿 2, server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 瑞典-聚宝盆儿 3, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 瑞典-聚宝盆儿 4, server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 瑞典-聚宝盆儿 5, server: 185.76.9.56, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 瑞典ouTube-由零开始, server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: -聚宝盆儿 14, server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: -聚宝盆儿 15, server: 185.76.9.56, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇦🇺 澳大利亚-聚宝盆儿, server: 194.110.115.86, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: -聚宝盆儿 16, server: 194.110.115.86, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 🇷🇺 俄罗斯-聚宝盆儿, server: 194.50.170.83, port: 80, type: vmess, uuid: a101e37d-3ccd-3b26-9fe5-6b293537e8a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /els, ws-headers: {Host: shoutingtoutiao3.10010.com}}
+  - {name: 🇺🇲 美国-聚宝盆儿 22, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国-聚宝盆儿 23, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国-聚宝盆儿 24, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇲 美国-聚宝盆儿 25, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇲 美国-聚宝盆儿 26, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国-聚宝盆儿 27, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国-聚宝盆儿 28, server: 198.8.92.84, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇲 美国-聚宝盆儿 29, server: 198.8.92.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇲 美国-聚宝盆儿 30, server: 198.8.92.84, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇲 美国-聚宝盆儿 31, server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 西班牙-聚宝盆儿, server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 西班牙-聚宝盆儿 2, server: 89.37.95.16, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇪 德国-聚宝盆儿 7, server: 82.102.16.102, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇬🇧 英国-聚宝盆儿 22, server: 217.146.83.70, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 🇩🇪 德国-聚宝盆儿 8, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇮🇹 意大利-聚宝盆儿 7, server: 212.102.54.163, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 🇮🇹 意大利-聚宝盆儿 8, server: 212.102.54.161, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 4, server: 91.219.215.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇫🇷 法国-聚宝盆儿 4, server: 185.108.106.175, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇫🇷 法国-聚宝盆儿 5, server: 185.108.106.175, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 7, server: 107.150.94.12, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 8, server: 107.150.94.14, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 瑞典-聚宝盆儿 6, server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: 🇺🇲 美国-聚宝盆儿 24, server: 156.146.33.66, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 🇺🇲 美国-聚宝盆儿 25, server: 156.146.33.66, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇫🇷 法国-聚宝盆儿 6, server: 185.108.106.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇫🇷 法国-聚宝盆儿 7, server: 185.108.106.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 法国-聚宝盆儿 8, server: 185.108.106.172, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利-聚宝盆儿 9, server: 212.102.54.161, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 荷兰-聚宝盆儿 13, server: 89.46.223.239, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 瑞典-聚宝盆儿 7, server: 185.76.9.56, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇩🇪 德国-聚宝盆儿 9, server: 82.102.16.102, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇹🇷 土耳其-聚宝盆儿 9, server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
   - {name: 西班牙-聚宝盆儿 3, server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 5, server: 91.219.215.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇩🇪 德国-聚宝盆儿 10, server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇩🇪 德国-聚宝盆儿 11, server: 82.102.16.102, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 西班牙-聚宝盆儿 4, server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇫🇷 法国-聚宝盆儿 9, server: 185.108.106.175, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇬🇧 英国-聚宝盆儿 23, server: 217.146.83.70, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 6, server: 91.219.215.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利-聚宝盆儿 10, server: 212.102.54.163, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 瑞典-聚宝盆儿 8, server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇯🇵 日本-聚宝盆儿, server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 阿尔巴尼亚-聚宝盆儿, server: 31.171.154.220, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 西班牙-聚宝盆儿 5, server: 89.37.95.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 瑞典-聚宝盆儿 9, server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇲 美国-聚宝盆儿 26, server: 156.146.33.74, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: 瑞典ouTube-由零开始 2, server: 185.76.9.56, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 瑞典-聚宝盆儿 10, server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇮🇹 意大利-聚宝盆儿 11, server: 212.102.54.161, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇨🇳 中国-聚宝盆儿 6, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 阿尔巴尼亚-聚宝盆儿 2, server: 31.171.154.220, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 西班牙-聚宝盆儿 6, server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 阿尔巴尼亚-聚宝盆儿 3, server: 31.171.154.220, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 阿尔巴尼亚-聚宝盆儿 4, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 瑞典-聚宝盆儿 11, server: 185.76.9.56, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 瑞典-聚宝盆儿 12, server: 185.76.9.56, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国-聚宝盆儿 27, server: 156.146.33.74, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 瑞典-聚宝盆儿 13, server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 瑞典-聚宝盆儿 14, server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿, server: 194.110.115.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 2, server: 194.110.115.86, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国-聚宝盆儿 28, server: gonyi2.baiyun.pw, port: 837, type: vmess, uuid: 86532720-1947-35aa-984e-f9e30c889a38, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}}
-  - {name: -聚宝盆儿 3, server: 185.76.9.56, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇺🇲 美国-聚宝盆儿 29, server: 156.146.33.66, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 3, server: 194.110.115.84, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 瑞典-聚宝盆儿 15, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 🇭🇰 香港-聚宝盆儿, server: 120.232.215.149, port: 36474, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: -聚宝盆儿 4, server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 4, server: 194.110.115.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: -聚宝盆儿 5, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: 🇺🇲 美国-聚宝盆儿 30, server: 156.146.33.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: -聚宝盆儿 6, server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇲 美国-聚宝盆儿 31, server: 156.146.33.66, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇺🇲 美国-聚宝盆儿 32, server: 156.146.33.74, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 5, server: 194.110.115.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 瑞典-聚宝盆儿 16, server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 🇺🇲 美国-聚宝盆儿 33, server: 156.146.33.74, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: -聚宝盆儿 7, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇲 美国-聚宝盆儿 34, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国-聚宝盆儿 35, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 🇺🇲 美国-聚宝盆儿 36, server: 156.146.33.74, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 美国-聚宝盆儿 37, server: 156.146.33.74, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: 瑞典-聚宝盆儿 17, server: 185.76.9.56, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇮🇹 意大利-聚宝盆儿 12, server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇩🇪 德国-聚宝盆儿 12, server: 82.102.16.102, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国-聚宝盆儿 38, server: 156.146.33.74, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇲 美国-聚宝盆儿 39, server: 156.146.33.74, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 7, server: 185.124.240.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇲 美国-聚宝盆儿 40, server: 198.8.92.84, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇲 美国-聚宝盆儿 41, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇲 美国-聚宝盆儿 42, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国-聚宝盆儿 43, server: 156.146.33.74, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: 🇺🇲 美国-聚宝盆儿 44, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 瑞典-聚宝盆儿 18, server: 185.76.9.56, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇲 美国-聚宝盆儿 45, server: 198.8.92.84, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇷🇴 罗马尼亚-聚宝盆儿 8, server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 6, server: 194.110.115.86, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 美国-聚宝盆儿 46, server: 156.146.33.74, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: 🇦🇺 澳大利亚-聚宝盆儿 7, server: 194.110.115.84, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: -聚宝盆儿 8, server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇲 美国-聚宝盆儿 47, server: 156.146.33.66, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 西班牙-聚宝盆儿 4, server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: -聚宝盆儿 17, server: 89.37.95.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: -聚宝盆儿 18, server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇳🇱 荷兰-聚宝盆儿, server: 89.46.223.186, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 2, server: 89.46.223.215, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 3, server: 89.46.223.215, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 4, server: 89.46.223.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 5, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 6, server: 89.46.223.239, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 7, server: 89.46.223.242, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 8, server: 89.46.223.242, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 9, server: 89.46.223.67, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 10, server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 11, server: 89.46.223.87, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 🇳🇱 荷兰-聚宝盆儿 12, server: 89.46.223.99, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: 🇨🇳 台湾-聚宝盆儿, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇯🇵 日本-聚宝盆儿, server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: 🇭🇰 香港-聚宝盆儿, server: global-transit-02-sg.pucdn.me, port: 62006, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-07.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 2, server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-12.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 3, server: global-transit-02-sg.pucdn.me, port: 62010, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-11.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 4, server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 5, server: global-transit-02-sg.pucdn.me, port: 62008, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
+  - {name: 🇯🇵 日本-聚宝盆儿 2, server: global-transit-02-sg.pucdn.me, port: 40012, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
+  - {name: 🇺🇲 美国-聚宝盆儿 32, server: global-transit-02-sg.pucdn.me, port: 62007, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
+  - {name: 🇺🇲 美国-聚宝盆儿 33, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
+  - {name: 🇰🇷 韩国-聚宝盆儿, server: global-transit-02-sg.pucdn.me, port: 63007, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-07.pucdn.me}}
+  - {name: 🇰🇷 韩国-聚宝盆儿 2, server: global-transit-02-sg.pucdn.me, port: 63003, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-03.pucdn.me}}
+  - {name: 🇰🇷 韩国-聚宝盆儿 3, server: global-transit-02-sg.pucdn.me, port: 63001, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-01.pucdn.me}}
+  - {name: 🇸🇬 新加坡-聚宝盆儿 2, server: global-transit-hk-v2.pucdn.me, port: 31124, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-01.pucdn.me}}
+  - {name: 🇯🇵 日本-聚宝盆儿 3, server: global-transit-hk-v2.pucdn.me, port: 10007, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-03.pucdn.me}}
+  - {name: 🇺🇲 美国-聚宝盆儿 34, server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-02.pucdn.me}}
+  - {name: 🇰🇷 韩国-聚宝盆儿 4, server: global-transit-hk-v2.pucdn.me, port: 31102, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-02.pucdn.me}}
+  - {name: 🇷🇺 俄罗斯-聚宝盆儿 2, server: global-transit-hk-v2.pucdn.me, port: 31123, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-02.pucdn.me}}
+  - {name: 🇷🇺 俄罗斯-聚宝盆儿 3, server: global-transit-hk-v2.pucdn.me, port: 31122, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-01.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 6, server: guangzhou-lw-03.pucdn.me, port: 11116, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-09.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 7, server: guangzhou-lw-03.pucdn.me, port: 11113, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-06.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 8, server: guangzhou-lw-03.pucdn.me, port: 11117, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-10.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 9, server: guangzhou-lw-03.pucdn.me, port: 11112, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-05.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 10, server: guangzhou-lw-03.pucdn.me, port: 11111, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-04.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 11, server: guangzhou-lw-03.pucdn.me, port: 11110, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-03.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 12, server: guangzhou-lw-03.pucdn.me, port: 11115, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-08.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 13, server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
+  - {name: 🇭🇰 香港-聚宝盆儿 14, server: guangzhou-lw-03.pucdn.me, port: 11108, type: vmess, uuid: bcaef81c-a565-3ad4-a8ab-3884a8e5a526, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-01.pucdn.me}}
+  - {name: 🇯🇵 日本-聚宝盆儿 4, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1397,198 +970,137 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇹🇷 土耳其-聚宝盆儿
+      - 🇹🇷 土耳其-聚宝盆儿 2
+      - 🇹🇷 土耳其-聚宝盆儿 3
+      - 🇹🇷 土耳其-聚宝盆儿 4
+      - 🇫🇷 法国-聚宝盆儿
+      - -聚宝盆儿
+      - 🇸🇬 新加坡-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 2
-      - 斯洛伐克-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 6
-      - 斯洛伐克-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 8
-      - 斯洛伐克-聚宝盆儿 3
-      - 斯洛伐克-聚宝盆儿 4
       - 🇺🇲 美国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 10
-      - 🇬🇧 英国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 3
-      - 🇬🇧 英国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 5
-      - 斯洛伐克-聚宝盆儿 5
-      - 斯洛伐克 -聚宝盆儿
       - 🇺🇲 美国-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 3
-      - -聚宝盆儿
-      - 🇩🇪 德国-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 7
       - 🇺🇲 美国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 14
-      - 🇬🇧 英国-聚宝盆儿 8
-      - 🇬🇧 英国-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 15
-      - 🇨🇳 中国-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 16
-      - 🇳🇱 荷兰-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 10
-      - 瑞典-聚宝盆儿
-      - 🇬🇧 英国-聚宝盆儿 11
       - 🇺🇲 美国-聚宝盆儿 17
-      - 🇨🇳 中国-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 18
-      - 🇩🇪 德国-聚宝盆儿 5
-      - 瑞典ouTube-由零开始
-      - 🇹🇷 土耳其-聚宝盆儿
-      - 🇳🇱 荷兰-聚宝盆儿 5
-      - 🇳🇱 荷兰-聚宝盆儿 6
-      - 🇬🇧 英国-聚宝盆儿 12
-      - 🇬🇧 英国-聚宝盆儿 13
       - 🇺🇲 美国-聚宝盆儿 19
-      - 🇳🇱 荷兰-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 14
       - 🇺🇲 美国-聚宝盆儿 20
-      - 🇹🇷 土耳其-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 8
-      - 🇳🇱 荷兰-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 15
-      - 🇬🇧 英国-聚宝盆儿 16
-      - 瑞典-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 17
-      - 🇬🇧 英国-聚宝盆儿 18
       - 🇺🇲 美国-聚宝盆儿 21
-      - 🇫🇷 法国-聚宝盆儿
-      - 西班牙-聚宝盆儿
-      - 🇮🇹 意大利-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 2
-      - 🇨🇳 中国-聚宝盆儿 4
-      - 🇳🇱 荷兰-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 3
-      - 🇺🇲 美国-聚宝盆儿 22
-      - 瑞典-聚宝盆儿 4
-      - 🇺🇲 美国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿
-      - 🇹🇷 土耳其-聚宝盆儿 4
-      - 🇹🇷 土耳其-聚宝盆儿 5
       - -聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 4
-      - 🇬🇧 英国-聚宝盆儿 19
-      - 🇬🇧 英国-聚宝盆儿 20
+      - 🇷🇴 罗马尼亚-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿
+      - 斯洛伐克-聚宝盆儿 2
+      - 斯洛伐克-聚宝盆儿 3
+      - 斯洛伐克-聚宝盆儿 4
+      - 斯洛伐克-聚宝盆儿 5
+      - 斯洛伐克-聚宝盆儿 6
+      - 斯洛伐克-聚宝盆儿 7
+      - 斯洛伐克-聚宝盆儿 8
+      - 斯洛伐克-聚宝盆儿 9
+      - 斯洛伐克-聚宝盆儿 10
+      - 斯洛伐克-聚宝盆儿 11
+      - 斯洛伐克-聚宝盆儿 12
+      - 斯洛伐克-聚宝盆儿 13
+      - 斯洛伐克-聚宝盆儿 14
+      - 斯洛伐克-聚宝盆儿 15
+      - 斯洛伐克-聚宝盆儿 16
+      - 斯洛伐克-聚宝盆儿 17
+      - 斯洛伐克-聚宝盆儿 18
+      - 斯洛伐克-聚宝盆儿 19
+      - 斯洛伐克-聚宝盆儿 20
+      - 斯洛伐克-聚宝盆儿 21
+      - 斯洛伐克 -聚宝盆儿
+      - -聚宝盆儿 3
+      - -聚宝盆儿 4
+      - -聚宝盆儿 5
+      - -聚宝盆儿 6
+      - -聚宝盆儿 7
+      - -聚宝盆儿 8
+      - -聚宝盆儿 9
+      - -聚宝盆儿 10
+      - -聚宝盆儿 11
+      - -聚宝盆儿 12
+      - -聚宝盆儿 13
+      - 瑞典-聚宝盆儿
+      - 瑞典-聚宝盆儿 2
+      - 瑞典-聚宝盆儿 3
+      - 瑞典-聚宝盆儿 4
       - 瑞典-聚宝盆儿 5
-      - 🇨🇳 中国-聚宝盆儿 5
-      - 🇫🇷 法国-聚宝盆儿 2
-      - 🇬🇧 英国-聚宝盆儿 21
-      - 🇹🇷 土耳其-聚宝盆儿 6
-      - 🇳🇱 荷兰-聚宝盆儿 11
-      - 🇫🇷 法国-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 2
-      - 🇳🇱 荷兰-聚宝盆儿 12
-      - 🇷🇴 罗马尼亚-聚宝盆儿 3
-      - 🇮🇹 意大利-聚宝盆儿 5
-      - 🇮🇹 意大利-聚宝盆儿 6
-      - 西班牙-聚宝盆儿 2
-      - 🇩🇪 德国-聚宝盆儿 7
-      - 🇬🇧 英国-聚宝盆儿 22
-      - 🇩🇪 德国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 7
-      - 🇮🇹 意大利-聚宝盆儿 8
-      - 🇷🇴 罗马尼亚-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 5
-      - 🇹🇷 土耳其-聚宝盆儿 7
-      - 🇹🇷 土耳其-聚宝盆儿 8
-      - 瑞典-聚宝盆儿 6
+      - 瑞典ouTube-由零开始
+      - -聚宝盆儿 14
+      - -聚宝盆儿 15
+      - 🇦🇺 澳大利亚-聚宝盆儿
+      - -聚宝盆儿 16
+      - 🇷🇺 俄罗斯-聚宝盆儿
+      - 🇺🇲 美国-聚宝盆儿 22
+      - 🇺🇲 美国-聚宝盆儿 23
       - 🇺🇲 美国-聚宝盆儿 24
       - 🇺🇲 美国-聚宝盆儿 25
-      - 🇫🇷 法国-聚宝盆儿 6
-      - 🇫🇷 法国-聚宝盆儿 7
-      - 🇫🇷 法国-聚宝盆儿 8
-      - 🇮🇹 意大利-聚宝盆儿 9
-      - 🇳🇱 荷兰-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 7
-      - 🇩🇪 德国-聚宝盆儿 9
-      - 🇹🇷 土耳其-聚宝盆儿 9
-      - 西班牙-聚宝盆儿 3
-      - 🇷🇴 罗马尼亚-聚宝盆儿 5
-      - 🇩🇪 德国-聚宝盆儿 10
-      - 🇩🇪 德国-聚宝盆儿 11
-      - 西班牙-聚宝盆儿 4
-      - 🇫🇷 法国-聚宝盆儿 9
-      - 🇬🇧 英国-聚宝盆儿 23
-      - 🇷🇴 罗马尼亚-聚宝盆儿 6
-      - 🇮🇹 意大利-聚宝盆儿 10
-      - 瑞典-聚宝盆儿 8
-      - 🇯🇵 日本-聚宝盆儿
-      - 阿尔巴尼亚-聚宝盆儿
-      - 西班牙-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 9
       - 🇺🇲 美国-聚宝盆儿 26
-      - 瑞典ouTube-由零开始 2
-      - 瑞典-聚宝盆儿 10
-      - 🇮🇹 意大利-聚宝盆儿 11
-      - 🇨🇳 中国-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 2
-      - 西班牙-聚宝盆儿 6
-      - 阿尔巴尼亚-聚宝盆儿 3
-      - 阿尔巴尼亚-聚宝盆儿 4
-      - 瑞典-聚宝盆儿 11
-      - 瑞典-聚宝盆儿 12
       - 🇺🇲 美国-聚宝盆儿 27
-      - 瑞典-聚宝盆儿 13
-      - 瑞典-聚宝盆儿 14
-      - 🇦🇺 澳大利亚-聚宝盆儿
-      - 🇦🇺 澳大利亚-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 28
-      - -聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 29
-      - 🇦🇺 澳大利亚-聚宝盆儿 3
-      - 瑞典-聚宝盆儿 15
-      - 🇭🇰 香港-聚宝盆儿
-      - -聚宝盆儿 4
-      - 🇦🇺 澳大利亚-聚宝盆儿 4
-      - -聚宝盆儿 5
       - 🇺🇲 美国-聚宝盆儿 30
-      - -聚宝盆儿 6
       - 🇺🇲 美国-聚宝盆儿 31
+      - 西班牙-聚宝盆儿
+      - 西班牙-聚宝盆儿 2
+      - 西班牙-聚宝盆儿 3
+      - 西班牙-聚宝盆儿 4
+      - -聚宝盆儿 17
+      - -聚宝盆儿 18
+      - 🇳🇱 荷兰-聚宝盆儿
+      - 🇳🇱 荷兰-聚宝盆儿 2
+      - 🇳🇱 荷兰-聚宝盆儿 3
+      - 🇳🇱 荷兰-聚宝盆儿 4
+      - 🇳🇱 荷兰-聚宝盆儿 5
+      - 🇳🇱 荷兰-聚宝盆儿 6
+      - 🇳🇱 荷兰-聚宝盆儿 7
+      - 🇳🇱 荷兰-聚宝盆儿 8
+      - 🇳🇱 荷兰-聚宝盆儿 9
+      - 🇳🇱 荷兰-聚宝盆儿 10
+      - 🇳🇱 荷兰-聚宝盆儿 11
+      - 🇳🇱 荷兰-聚宝盆儿 12
+      - 🇨🇳 台湾-聚宝盆儿
+      - 🇯🇵 日本-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿
+      - 🇭🇰 香港-聚宝盆儿 2
+      - 🇭🇰 香港-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 4
+      - 🇭🇰 香港-聚宝盆儿 5
+      - 🇯🇵 日本-聚宝盆儿 2
       - 🇺🇲 美国-聚宝盆儿 32
-      - 🇦🇺 澳大利亚-聚宝盆儿 5
-      - 瑞典-聚宝盆儿 16
       - 🇺🇲 美国-聚宝盆儿 33
-      - -聚宝盆儿 7
+      - 🇰🇷 韩国-聚宝盆儿
+      - 🇰🇷 韩国-聚宝盆儿 2
+      - 🇰🇷 韩国-聚宝盆儿 3
+      - 🇸🇬 新加坡-聚宝盆儿 2
+      - 🇯🇵 日本-聚宝盆儿 3
       - 🇺🇲 美国-聚宝盆儿 34
-      - 🇺🇲 美国-聚宝盆儿 35
-      - 🇺🇲 美国-聚宝盆儿 36
-      - 🇺🇲 美国-聚宝盆儿 37
-      - 瑞典-聚宝盆儿 17
-      - 🇮🇹 意大利-聚宝盆儿 12
-      - 🇩🇪 德国-聚宝盆儿 12
-      - 🇺🇲 美国-聚宝盆儿 38
-      - 🇺🇲 美国-聚宝盆儿 39
-      - 🇷🇴 罗马尼亚-聚宝盆儿 7
-      - 🇺🇲 美国-聚宝盆儿 40
-      - 🇺🇲 美国-聚宝盆儿 41
-      - 🇺🇲 美国-聚宝盆儿 42
-      - 🇺🇲 美国-聚宝盆儿 43
-      - 🇺🇲 美国-聚宝盆儿 44
-      - 瑞典-聚宝盆儿 18
-      - 🇺🇲 美国-聚宝盆儿 45
-      - 🇷🇴 罗马尼亚-聚宝盆儿 8
-      - 🇦🇺 澳大利亚-聚宝盆儿 6
-      - 🇺🇲 美国-聚宝盆儿 46
-      - 🇦🇺 澳大利亚-聚宝盆儿 7
-      - -聚宝盆儿 8
-      - 🇺🇲 美国-聚宝盆儿 47
+      - 🇰🇷 韩国-聚宝盆儿 4
+      - 🇷🇺 俄罗斯-聚宝盆儿 2
+      - 🇷🇺 俄罗斯-聚宝盆儿 3
+      - 🇭🇰 香港-聚宝盆儿 6
+      - 🇭🇰 香港-聚宝盆儿 7
+      - 🇭🇰 香港-聚宝盆儿 8
+      - 🇭🇰 香港-聚宝盆儿 9
+      - 🇭🇰 香港-聚宝盆儿 10
+      - 🇭🇰 香港-聚宝盆儿 11
+      - 🇭🇰 香港-聚宝盆儿 12
+      - 🇭🇰 香港-聚宝盆儿 13
+      - 🇭🇰 香港-聚宝盆儿 14
+      - 🇯🇵 日本-聚宝盆儿 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
