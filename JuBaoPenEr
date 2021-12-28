@@ -5,1684 +5,1092 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '德国_1', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '日本_2', server: 00.cn4.rocketdns.xyz, port: 65006, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_3', server: 120.197.88.216, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '新加坡_4', server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '日本_5', server: 00.cn3.rocketdns.xyz, port: 65006, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_6', server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '日本_7', server: 116.163.10.145, port: 65004, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_8', server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: '台湾_9', server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '香港_10', server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_11', server: 116.163.14.146, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_12', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '印度_13', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '美国_14', server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国_15', server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '德国_16', server: 00.cn4.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国_17', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '德国_18', server: 00.cn4.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '德国_19', server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_20', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '德国_21', server: 00.cn4.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_22', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '新加坡_1', server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '台湾_2', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '俄罗斯_3', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '印度_4', server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '俄罗斯_5', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: '俄罗斯_6', server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/}
+  - {name: '内华达_7', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '加拿大_8', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国_9', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: '美国_10', server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
+  - {name: '加拿大_11', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '美国_12', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '俄罗斯_13', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '美国_14', server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '澳大利亚_15', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_16', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '加拿大_17', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '美国_18', server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '加拿大_19', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '美国_20', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '美国_21', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: '美国_22', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
   - {name: '内华达_23', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '俄罗斯_24', server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/}
-  - {name: '俄罗斯_25', server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '德国_26', server: 00.cn3.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_27', server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国_28', server: 45.32.74.74, port: 46269, type: vmess, uuid: 7ec73cc8-6539-11ec-b5cf-560003c186bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mz2pKaiY/}
-  - {name: '香港_29', server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '德国_30', server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '加拿大_31', server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t4.ssrsub.com}
-  - {name: '澳大利亚_32', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_33', server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '印度_34', server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国_35', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '俄罗斯_36', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_37', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: '日本_38', server: 00.cn2.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '马来西亚_39', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: '美国_40', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '加拿大_41', server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t3.ssrsub.com}
-  - {name: '美国_42', server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国_43', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '日本_44', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: '加拿大_45', server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
-  - {name: '加拿大_46', server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t3.ssrsub.com}
-  - {name: '法国_47', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '台湾_48', server: 00.cn1.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '印度_49', server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '德国_50', server: 00.cn4.rocketdns.xyz, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国_51', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '美国_52', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '加拿大_53', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '法国_54', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '美国_55', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '美国_56', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '美国_57', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: '美国_58', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '台湾_59', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '香港_60', server: 00.cn4.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_61', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_62', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国_63', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: '内华达_64', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_65', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: '美国_66', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '美国_67', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国_68', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '加拿大_69', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_70', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '美国_71', server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}}
-  - {name: '美国_72', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国_73', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '美国_74', server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: '加拿大_75', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '德国_76', server: 00.cn1.rocketdns.xyz, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '加拿大_77', server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '日本_78', server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_79', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '美国_80', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_81', server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: '日本_82', server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: t.me/vpnpool}}
-  - {name: '美国_83', server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '台湾_84', server: 120.241.72.84, port: 18006, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: '加拿大_85', server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
-  - {name: '挪威_86', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '香港_87', server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国_88', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_89', server: 00.cn2.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_90', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '越南_91', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: '美国_92', server: 116.163.10.145, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: '美国_93', server: 00.cn3.rocketdns.xyz, port: 65012, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '加拿大_94', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国_95', server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
-  - {name: '加拿大_96', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '香港_97', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '挪威_98', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威_99', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '新加坡_100', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: '挪威_101', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '台湾_102', server: 116.163.14.146, port: 65012, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '挪威_103', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '台湾_104', server: 116.163.10.145, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_105', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_106', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '美国_107', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '挪威_108', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国_109', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '加拿大_110', server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '台湾_111', server: 120.241.72.84, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
-  - {name: '爱尔兰_112', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '美国_113', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: '日本_114', server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '法国_115', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_116', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '挪威_117', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国_118', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: '以色列_119', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '挪威_120', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '俄罗斯_121', server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '印度_122', server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国_123', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: '法国_124', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国_125', server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
-  - {name: '台湾_126', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '挪威_127', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '俄罗斯_128', server: 45.89.229.126, port: 18000, type: vmess, uuid: 44606009-f8e0-37d3-99be-b59b7075f991, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-01.xncloud.xyz}}
-  - {name: '挪威_129', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '法国_130', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国_131', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '法国_132', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾_133', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '台湾_134', server: 120.241.72.84, port: 18005, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '台湾_135', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: '香港_136', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '澳大利亚_137', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: '印度尼西亚_138', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '美国_139', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '台湾_140', server: 120.241.72.84, port: 18121, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: '挪威_141', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '俄罗斯_142', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '加拿大_143', server: t4.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t4.ssrsub.com}
-  - {name: '美国_144', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大_145', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大_146', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '法国_147', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典_148', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '法国_149', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '法国_150', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '美国_151', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '墨西哥_152', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: '日本_153', server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '俄罗斯_154', server: 00.cn4.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '香港_155', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '法国_156', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '台湾_157', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '德黑兰_158', server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: '俄罗斯_159', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_160', server: access1.upyun.online, port: 13571, type: vmess, uuid: ff178504-2e01-473c-9b2e-f6b77d3ef4b1, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国_161', server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '印度尼西亚_162', server: 00.cn2.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '台湾_163', server: 116.163.14.146, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
-  - {name: '俄罗斯_164', server: t7.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
-  - {name: '美国_165', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: '俄罗斯_166', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '俄罗斯_167', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '香港_168', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: '加拿大_169', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '加拿大_170', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大_171', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '台湾_172', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '香港_173', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: t.me/vpnpool}}
-  - {name: '台湾_174', server: 120.241.72.84, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: '瑞典_175', server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '荷兰_176', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '法国_177', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '俄罗斯_178', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: '加利福尼亚_179', server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
-  - {name: '台湾_180', server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
-  - {name: '加拿大_181', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: '美国_182', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '葡萄牙_183', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '新西兰_184', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: '挪威_185', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '德国_186', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
-  - {name: '美国_187', server: 00.cn4.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_188', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '俄罗斯_189', server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
-  - {name: '俄罗斯_190', server: t2.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
-  - {name: '台湾_191', server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
-  - {name: '加拿大_192', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '俄罗斯_193', server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '美国_194', server: 00.cn1.rocketdns.xyz, port: 65012, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '法国_195', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '台湾_196', server: 120.241.72.84, port: 18124, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '美国_197', server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/, ws-headers: {Host: 198.200.51.18}}
-  - {name: '德国_198', server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '俄罗斯_199', server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '法国_200', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '德国_201', server: 116.163.14.146, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '台湾_202', server: 120.241.72.84, port: 18122, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '菲律宾_203', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '乌克兰_204', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '土库曼斯坦_205', server: 00.cn4.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '法国_24', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '美国_25', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: '美国_26', server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: '法国_27', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '美国_28', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '台湾_29', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '印度_30', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: '美国_31', server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: '美国_32', server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: '美国_33', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: '美国_34', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '挪威_35', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '美国_36', server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: '印度_37', server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: '俄罗斯_38', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '法国_39', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '加拿大_40', server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t3.ssrsub.com}
+  - {name: '美国_41', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_42', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '美国_43', server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: '加拿大_44', server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t3.ssrsub.com}
+  - {name: '美国_45', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '加拿大_46', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国_47', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '加拿大_48', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '加拿大_49', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '俄罗斯_50', server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '美国_51', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '越南_52', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: '法国_53', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_54', server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '加拿大_55', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大_56', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '俄罗斯_57', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: '加利福尼亚_58', server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: '加拿大_59', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大_60', server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: '美国_61', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
+  - {name: '美国_62', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国_63', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '俄罗斯_64', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '加拿大_65', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大_66', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '美国_67', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_68', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国_69', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '美国_70', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '挪威_71', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '美国_72', server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '法国_73', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '法国_74', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大_75', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '俄罗斯_76', server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '俄罗斯_77', server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: '法国_78', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '美国_79', server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
+  - {name: '挪威_80', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '台湾_81', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '法国_82', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '台湾_83', server: 116.163.14.146, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '法国_84', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '法国_85', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '加拿大_86', server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
+  - {name: '美国_87', server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: '挪威_88', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '挪威_89', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '爱尔兰_90', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: '加拿大_91', server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t4.ssrsub.com}
+  - {name: '加拿大_92', server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '美国_93', server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '挪威_94', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威_95', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '瑞典_96', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '台湾_97', server: 116.163.14.146, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: '新加坡_98', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: '以色列_99', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '丹麦_100', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: '台湾_101', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '比利时_102', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '俄罗斯_103', server: t7.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917}
+  - {name: '德黑兰_104', server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '法国_105', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: '法国_106', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '法国_107', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大_108', server: t4.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t4.ssrsub.com}
+  - {name: '美国_109', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: '挪威_110', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '挪威_111', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威_112', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '挪威_113', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '葡萄牙_114', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '香港_115', server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: '新西兰_116', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: '加拿大_117', server: ff5.uuv2.co.uk, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '日本_118', server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '德国_119', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
+  - {name: '俄罗斯_120', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '俄罗斯_121', server: t7.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912}
+  - {name: '俄罗斯_122', server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '俄罗斯_123', server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '俄罗斯_124', server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '法国_125', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '菲律宾_126', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: '美国_127', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国_128', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威_129', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '台湾_130', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '台湾_131', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1698,211 +1106,137 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国_1
-      - 日本_2
-      - 香港_3
-      - 新加坡_4
-      - 日本_5
-      - 香港_6
-      - 日本_7
-      - 香港_8
-      - 台湾_9
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 印度_13
+      - 新加坡_1
+      - 台湾_2
+      - 俄罗斯_3
+      - 印度_4
+      - 俄罗斯_5
+      - 俄罗斯_6
+      - 内华达_7
+      - 加拿大_8
+      - 美国_9
+      - 美国_10
+      - 加拿大_11
+      - 美国_12
+      - 俄罗斯_13
       - 美国_14
-      - 美国_15
-      - 德国_16
-      - 美国_17
-      - 德国_18
-      - 德国_19
-      - 香港_20
-      - 德国_21
-      - 俄罗斯_22
+      - 澳大利亚_15
+      - 美国_16
+      - 加拿大_17
+      - 美国_18
+      - 加拿大_19
+      - 美国_20
+      - 美国_21
+      - 美国_22
       - 内华达_23
-      - 俄罗斯_24
-      - 俄罗斯_25
-      - 德国_26
-      - 俄罗斯_27
+      - 法国_24
+      - 美国_25
+      - 美国_26
+      - 法国_27
       - 美国_28
-      - 香港_29
-      - 德国_30
-      - 加拿大_31
-      - 澳大利亚_32
+      - 台湾_29
+      - 印度_30
+      - 美国_31
+      - 美国_32
       - 美国_33
-      - 印度_34
-      - 美国_35
-      - 俄罗斯_36
-      - 美国_37
-      - 日本_38
-      - 马来西亚_39
-      - 美国_40
-      - 加拿大_41
+      - 美国_34
+      - 挪威_35
+      - 美国_36
+      - 印度_37
+      - 俄罗斯_38
+      - 法国_39
+      - 加拿大_40
+      - 美国_41
       - 美国_42
       - 美国_43
-      - 日本_44
-      - 加拿大_45
+      - 加拿大_44
+      - 美国_45
       - 加拿大_46
-      - 法国_47
-      - 台湾_48
-      - 印度_49
-      - 德国_50
+      - 美国_47
+      - 加拿大_48
+      - 加拿大_49
+      - 俄罗斯_50
       - 美国_51
-      - 美国_52
-      - 加拿大_53
-      - 法国_54
-      - 美国_55
-      - 美国_56
-      - 美国_57
-      - 美国_58
-      - 台湾_59
-      - 香港_60
-      - 俄罗斯_61
+      - 越南_52
+      - 法国_53
+      - 美国_54
+      - 加拿大_55
+      - 加拿大_56
+      - 俄罗斯_57
+      - 加利福尼亚_58
+      - 加拿大_59
+      - 加拿大_60
+      - 美国_61
       - 美国_62
       - 美国_63
-      - 内华达_64
-      - 美国_65
-      - 美国_66
+      - 俄罗斯_64
+      - 加拿大_65
+      - 加拿大_66
       - 美国_67
       - 美国_68
-      - 加拿大_69
+      - 美国_69
       - 美国_70
-      - 美国_71
+      - 挪威_71
       - 美国_72
-      - 美国_73
-      - 美国_74
+      - 法国_73
+      - 法国_74
       - 加拿大_75
-      - 德国_76
-      - 加拿大_77
-      - 日本_78
-      - 俄罗斯_79
-      - 美国_80
-      - 美国_81
-      - 日本_82
-      - 美国_83
-      - 台湾_84
-      - 加拿大_85
-      - 挪威_86
-      - 香港_87
-      - 美国_88
-      - 美国_89
-      - 俄罗斯_90
-      - 越南_91
-      - 美国_92
+      - 俄罗斯_76
+      - 俄罗斯_77
+      - 法国_78
+      - 美国_79
+      - 挪威_80
+      - 台湾_81
+      - 法国_82
+      - 台湾_83
+      - 法国_84
+      - 法国_85
+      - 加拿大_86
+      - 美国_87
+      - 挪威_88
+      - 挪威_89
+      - 爱尔兰_90
+      - 加拿大_91
+      - 加拿大_92
       - 美国_93
-      - 加拿大_94
-      - 美国_95
-      - 加拿大_96
-      - 香港_97
-      - 挪威_98
-      - 挪威_99
-      - 新加坡_100
-      - 挪威_101
-      - 台湾_102
-      - 挪威_103
-      - 台湾_104
-      - 俄罗斯_105
-      - 美国_106
-      - 美国_107
-      - 挪威_108
+      - 挪威_94
+      - 挪威_95
+      - 瑞典_96
+      - 台湾_97
+      - 新加坡_98
+      - 以色列_99
+      - 丹麦_100
+      - 台湾_101
+      - 比利时_102
+      - 俄罗斯_103
+      - 德黑兰_104
+      - 法国_105
+      - 法国_106
+      - 法国_107
+      - 加拿大_108
       - 美国_109
-      - 加拿大_110
-      - 台湾_111
-      - 爱尔兰_112
-      - 美国_113
-      - 日本_114
-      - 法国_115
-      - 美国_116
-      - 挪威_117
-      - 美国_118
-      - 以色列_119
-      - 挪威_120
+      - 挪威_110
+      - 挪威_111
+      - 挪威_112
+      - 挪威_113
+      - 葡萄牙_114
+      - 香港_115
+      - 新西兰_116
+      - 加拿大_117
+      - 日本_118
+      - 德国_119
+      - 俄罗斯_120
       - 俄罗斯_121
-      - 印度_122
-      - 美国_123
-      - 法国_124
-      - 美国_125
-      - 台湾_126
-      - 挪威_127
-      - 俄罗斯_128
+      - 俄罗斯_122
+      - 俄罗斯_123
+      - 俄罗斯_124
+      - 法国_125
+      - 菲律宾_126
+      - 美国_127
+      - 美国_128
       - 挪威_129
-      - 法国_130
-      - 美国_131
-      - 法国_132
-      - 台湾_133
-      - 台湾_134
-      - 台湾_135
-      - 香港_136
-      - 澳大利亚_137
-      - 印度尼西亚_138
-      - 美国_139
-      - 台湾_140
-      - 挪威_141
-      - 俄罗斯_142
-      - 加拿大_143
-      - 美国_144
-      - 加拿大_145
-      - 加拿大_146
-      - 法国_147
-      - 瑞典_148
-      - 法国_149
-      - 法国_150
-      - 美国_151
-      - 墨西哥_152
-      - 日本_153
-      - 俄罗斯_154
-      - 香港_155
-      - 法国_156
-      - 台湾_157
-      - 德黑兰_158
-      - 俄罗斯_159
-      - 美国_160
-      - 美国_161
-      - 印度尼西亚_162
-      - 台湾_163
-      - 俄罗斯_164
-      - 美国_165
-      - 俄罗斯_166
-      - 俄罗斯_167
-      - 香港_168
-      - 加拿大_169
-      - 加拿大_170
-      - 加拿大_171
-      - 台湾_172
-      - 香港_173
-      - 台湾_174
-      - 瑞典_175
-      - 荷兰_176
-      - 法国_177
-      - 俄罗斯_178
-      - 加利福尼亚_179
-      - 台湾_180
-      - 加拿大_181
-      - 美国_182
-      - 葡萄牙_183
-      - 新西兰_184
-      - 挪威_185
-      - 德国_186
-      - 美国_187
-      - 俄罗斯_188
-      - 俄罗斯_189
-      - 俄罗斯_190
-      - 台湾_191
-      - 加拿大_192
-      - 俄罗斯_193
-      - 美国_194
-      - 法国_195
-      - 台湾_196
-      - 美国_197
-      - 德国_198
-      - 俄罗斯_199
-      - 法国_200
-      - 德国_201
-      - 台湾_202
-      - 菲律宾_203
-      - 乌克兰_204
-      - 土库曼斯坦_205
+      - 台湾_130
+      - 台湾_131
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
