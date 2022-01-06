@@ -5,247 +5,261 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾 2, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾 3, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: 日本 2, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 台湾, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 2, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 3, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 4, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 台湾 5, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 台湾 4, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 俄罗斯, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
-  - {name: 荷兰, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: 澳大利亚, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 澳大利亚 2, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 丹麦, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw, udp: true}
-  - {name: 美国 2, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 3, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: YouTube-由零开始-美国, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 4, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}, udp: true}
-  - {name: 美国 5, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 6, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 7, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国 8, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube-由零开始-美国 2, server: 38.91.102.86, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube-由零开始-美国 3, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: YouTube-由零开始-美国 4, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 澳大利亚 3, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 9, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
-  - {name: 越南, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
-  - {name: 澳大利亚 4, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 10, server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: YouTube-由零开始-美国 5, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国 11, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 美国 12, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 台湾 5, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 挪威, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: YouTube-由零开始-美国 6, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国 13, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国 2, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}, udp: true}
+  - {name: 美国 3, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 加拿大, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 俄罗斯, server: ru.testx.eu.org, port: 10001, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: default_name, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}, udp: true}
+  - {name: _US_美国, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 2, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
+  - {name: _US_美国 2, server: api.ssfree.ru, port: 443, type: vmess, uuid: 8a94a54e-6e40-11ec-bb14-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}, udp: true}
+  - {name: _US_美国 3, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 4, server: 38.91.102.86, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国 4, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: _US_美国 5, server: 38.143.66.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 6, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
+  - {name: _US_美国 7, server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 9, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: 澳大利亚, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 5, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 6, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 俄罗斯 3, server: vincent-jackson2021.ga, port: 443, type: trojan, password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, sni: vincent-jackson2021.ga, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 38.91.102.86, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 11, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
+  - {name: 俄罗斯 4, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
+  - {name: default_name 2, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}, udp: true}
+  - {name: _US_美国 12, server: 38.91.102.86, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 13, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
+  - {name: 美国 7, server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 8, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 9, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国 10, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 14, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: _US_美国 15, server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 16, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国 2, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国 11, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: YouTube-由零开始-美国, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 17, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国 3, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 18, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 19, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 20, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 21, server: 38.143.66.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 22, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 法国 4, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国 5, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国 6, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 3, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 加拿大 4, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 12, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 美国 13, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 23, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 24, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 25, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 26, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 法国 7, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 法国 8, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 美国 14, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 加拿大 5, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 27, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 28, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 29, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
+  - {name: 法国 9, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 加拿大 6, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 美国 15, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 美国 16, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 17, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 澳大利亚 5, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国 18, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 美国 19, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 新西兰, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5, udp: true}
-  - {name: 美国 20, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 比利时, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 美国 21, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 22, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 美国 23, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 美国 24, server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: YouTube-由零开始-美国 7, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 16, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 17, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 30, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 31, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 32, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大 7, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大 8, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国 18, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
+  - {name: 美国 19, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 20, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 33, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 34, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 21, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国 22, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国 23, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国 24, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 美国 25, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 26, server: 38.91.102.96, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube-由零开始-美国 8, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 美国 27, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 美国 28, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 29, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 30, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 31, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 32, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国 33, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 台湾 6, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
-  - {name: 美国 34, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 以色列, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: 台湾 7, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
-  - {name: 美国 35, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国 36, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 37, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国 38, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 以色列 2, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: 澳大利亚 6, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国 39, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 美国 40, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 41, server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国 42, server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 43, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国 44, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 俄罗斯 2, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 加拿大 3, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国 45, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国 46, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 新加坡, server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 香港 3, server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 美国 47, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国 48, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 美国 49, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国 50, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国 51, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 52, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国 53, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大 4, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
-  - {name: 美国 54, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 55, server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: YouTube-由零开始-美国 9, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 澳大利亚 7, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国 2, server: fr-cdg-01-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 美国 56, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 57, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 58, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 59, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 60, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 61, server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube-由零开始-美国 10, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: YouTube-由零开始-美国 11, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 62, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国 63, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube-由零开始-美国 12, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯 3, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 美国 64, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国 65, server: 38.91.102.96, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: 美国 66, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国 67, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 68, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国 69, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 70, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube-由零开始-美国 13, server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯 4, server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 加拿大 5, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 71, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国 72, server: 38.91.102.96, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 73, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国 74, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 75, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 76, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港 4, server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 香港 5, server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 台湾 8, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大 6, server: t1.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 77, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国 78, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 79, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国 80, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 81, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 香港 6, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 美国 82, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国 83, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 84, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 85, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 86, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 台湾 9, server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 加拿大 7, server: t1.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 87, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 88, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大 8, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 加拿大 9, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 俄罗斯 5, server: t7.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 加拿大 10, server: t3.ssrsub.com, port: 156, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 加拿大 11, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大 12, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 马来西亚, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
-  - {name: 美国 89, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 90, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 91, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
-  - {name: 美国 92, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国 93, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯 6, server: t7.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 法国 3, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 加拿大 13, server: t3.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 日本 3, server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 台湾 10, server: tw-tpe-h-tr.cdn.savoy.click, port: 989, type: trojan, password: SfobRIcergHchqBFzzua, sni: tw-tpe-h-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 7, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
-  - {name: YouTube-由零开始-美国 14, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大 14, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 94, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国 95, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: 法国 4, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国 96, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 美国 97, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 台湾 11, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 台湾 12, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国 98, server: us-sjc-na-v2.cdn.savoy.click, port: 688, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 法国 5, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大 15, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大 16, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 法国 6, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 法国 7, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 法国 8, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 法国 9, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大 17, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国 99, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 100, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 101, server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 35, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 36, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 俄罗斯 5, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: _US_美国 37, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube-由零开始-美国 2, server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 38, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 39, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 40, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国 26, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
+  - {name: 美国 27, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 28, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 澳大利亚 2, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 41, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 42, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 43, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 法国 10, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 9, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 29, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 30, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国 31, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: YouTube-由零开始-美国 3, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 44, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 45, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大 10, server: t1.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 11, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 32, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 33, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国 34, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 46, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube-由零开始-美国 4, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 47, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 48, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 49, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 50, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 12, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 35, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国 36, server: v8.ssrsub.com, port: 443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 美国 37, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 挪威, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 51, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 52, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 53, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 38, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 39, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 40, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 41, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 54, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 55, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 56, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大 13, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 42, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube-由零开始-美国 5, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 57, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 58, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 59, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国 43, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 44, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 45, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 60, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 61, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 俄罗斯 6, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: 加拿大 14, server: t1.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 46, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 62, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 63, server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 64, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大 15, server: t3.ssrsub.com, port: 156, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 47, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 48, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国 49, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 挪威 2, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 香港 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 65, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 66, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 67, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 16, server: t3.ssrsub.com, port: 156, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 50, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 美国 51, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 台湾 6, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 3, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚 3, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 68, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 69, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 70, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 71, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国 52, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 53, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 挪威 3, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 挪威 4, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 72, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 73, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国 11, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 17, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大 18, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 19, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 挪威 5, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 台湾 7, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 54, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube-由零开始-美国 6, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NO_挪威, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: 法国 12, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国 13, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 55, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 74, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 75, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
+  - {name: 香港 4, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 美国 56, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 57, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 挪威 6, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 挪威 7, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 挪威 8, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 挪威 9, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国 14, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国 15, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国 16, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 菲律宾, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: 挪威 10, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 台湾 8, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 印度, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
-  - {name: RU_152, server: ru.testx.eu.org, port: 10001, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大 18, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国 102, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 103, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 104, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 105, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国 106, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 107, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 香港 7, server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 60188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 德国, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 挪威 2, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 挪威 3, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 俄罗斯 8, server: t2.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 9, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
-  - {name: 法国 10, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 法国 11, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 108, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国 109, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 挪威 4, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 挪威 5, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 挪威 6, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 香港 8, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 香港 9, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 香港 10, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 11, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 法国 12, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 法国 13, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国 14, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 法国 15, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 法国 16, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国 17, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 法国 18, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 法国 19, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 法国 20, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 法国 21, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 法国 22, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 法国 23, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国 24, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 挪威 7, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 挪威 8, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 挪威 9, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 挪威 10, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 挪威 11, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 俄罗斯 10, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
-  - {name: 加拿大 19, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 美国 110, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 台湾 13, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾 14, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 台湾 15, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 香港 12, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: SfobRIcergHchqBFzzua, sni: sh-hk-hgc-100m-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 香港 13, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 香港 14, server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 俄罗斯 7, server: t7.ssrsub.com, port: 8443, type: trojan, password: da8ad13d-19e6-4a28-82a6-da15bbc0a968, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 法国 17, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 法国 18, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国 19, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国 20, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 58, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: 台湾 9, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 新西兰, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5, udp: true}
+  - {name: 以色列, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: _US_美国 76, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 77, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 78, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 俄罗斯 8, server: t7.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 法国 21, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 瑞典, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
+  - {name: 台湾 10, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: 台湾 11, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: 越南, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: _US_美国 79, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
+  - {name: _US_美国 80, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj, udp: true}
+  - {name: _LU_卢森堡, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC, udp: true}
+  - {name: _US_美国 81, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 82, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
+  - {name: _BG_保加利亚, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: _US_美国 83, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _HU_匈牙利, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
+  - {name: _CH_瑞士, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: _US_美国 84, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}, udp: true}
+  - {name: 美国 59, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 9, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
+  - {name: 俄罗斯 10, server: t2.ssrsub.com, port: 8443, type: trojan, password: 7644049b-79e1-4c3b-b621-0a464ab47db4, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 法国 22, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 美国 60, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国 61, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _BE_比利时, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: 马来西亚, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: 俄罗斯 11, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
+  - {name: 俄罗斯 12, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
+  - {name: 美国 62, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国 63, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -253,492 +267,520 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -746,246 +788,260 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1005,279 +1061,282 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 香港 2
       - 台湾 4
+      - _HK_香港
+      - _HK_香港 2
       - 台湾 5
+      - _HK_香港 3
+      - 香港
+      - 香港 2
       - 台湾 6
-      - 台湾 7
       - 香港 3
+      - 台湾 7
       - 香港 4
-      - 香港 5
       - 台湾 8
-      - 香港 6
       - 台湾 9
       - 台湾 10
       - 台湾 11
-      - 台湾 12
-      - 香港 7
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1285,492 +1344,520 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1778,246 +1865,260 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2034,246 +2135,260 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 台湾
-      - 香港
       - 台湾 2
       - 台湾 3
-      - 日本
-      - 香港 2
-      - 菲律宾
-      - 日本 2
-      - 美国
       - 台湾 4
-      - 俄罗斯
-      - 荷兰
-      - 澳大利亚
-      - 澳大利亚 2
-      - 丹麦
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 5
+      - 美国
+      - _JP_日本
       - 美国 2
       - 美国 3
-      - YouTube-由零开始-美国
+      - 加拿大
+      - _HK_香港 3
+      - 俄罗斯
+      - default_name
+      - _US_美国
+      - 加拿大 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
       - 美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - 俄罗斯 2
+      - 澳大利亚
       - 美国 5
       - 美国 6
+      - 俄罗斯 3
+      - _US_美国 10
+      - _US_美国 11
+      - 俄罗斯 4
+      - default_name 2
+      - _US_美国 12
+      - _US_美国 13
       - 美国 7
       - 美国 8
-      - YouTube-由零开始-美国 2
-      - YouTube-由零开始-美国 3
-      - YouTube-由零开始-美国 4
-      - 澳大利亚 3
       - 美国 9
-      - 越南
-      - 澳大利亚 4
       - 美国 10
-      - YouTube-由零开始-美国 5
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - 法国
+      - 法国 2
       - 美国 11
+      - YouTube-由零开始-美国
+      - _US_美国 17
+      - 法国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - 法国 4
+      - 法国 5
+      - 法国 6
+      - 加拿大 3
+      - 加拿大 4
       - 美国 12
-      - 台湾 5
-      - 挪威
-      - YouTube-由零开始-美国 6
       - 美国 13
+      - _US_美国 23
+      - _US_美国 24
+      - _US_美国 25
+      - _US_美国 26
+      - 法国 7
+      - 法国 8
       - 美国 14
+      - 加拿大 5
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - 法国 9
+      - 加拿大 6
       - 美国 15
       - 美国 16
       - 美国 17
-      - 澳大利亚 5
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - 加拿大 7
+      - 加拿大 8
       - 美国 18
       - 美国 19
-      - 新西兰
       - 美国 20
-      - 比利时
+      - _US_美国 33
+      - _US_美国 34
       - 美国 21
       - 美国 22
       - 美国 23
       - 美国 24
-      - YouTube-由零开始-美国 7
       - 美国 25
+      - _AU_澳大利亚
+      - _US_美国 35
+      - _US_美国 36
+      - 俄罗斯 5
+      - _US_美国 37
+      - YouTube-由零开始-美国 2
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
       - 美国 26
-      - YouTube-由零开始-美国 8
-      - 加拿大
       - 美国 27
       - 美国 28
+      - 澳大利亚 2
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - 法国 10
+      - 加拿大 9
       - 美国 29
       - 美国 30
       - 美国 31
+      - YouTube-由零开始-美国 3
+      - _US_美国 44
+      - _US_美国 45
+      - 加拿大 10
+      - 加拿大 11
       - 美国 32
       - 美国 33
-      - 台湾 6
       - 美国 34
-      - 以色列
-      - 台湾 7
+      - _US_美国 46
+      - YouTube-由零开始-美国 4
+      - _US_美国 47
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - 加拿大 12
       - 美国 35
       - 美国 36
       - 美国 37
+      - 挪威
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
       - 美国 38
-      - 以色列 2
-      - 澳大利亚 6
       - 美国 39
       - 美国 40
       - 美国 41
+      - _US_美国 54
+      - _US_美国 55
+      - _US_美国 56
+      - 加拿大 13
       - 美国 42
-      - 加拿大 2
+      - YouTube-由零开始-美国 5
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
       - 美国 43
       - 美国 44
-      - 俄罗斯 2
-      - 法国
-      - 加拿大 3
       - 美国 45
+      - 香港
+      - _US_美国 60
+      - _US_美国 61
+      - 俄罗斯 6
+      - 加拿大 14
       - 美国 46
-      - 新加坡
-      - 香港 3
+      - _US_美国 62
+      - _US_美国 63
+      - _US_美国 64
+      - 加拿大 15
       - 美国 47
       - 美国 48
       - 美国 49
+      - 挪威 2
+      - 香港 2
+      - _US_美国 65
+      - _US_美国 66
+      - _US_美国 67
+      - 加拿大 16
       - 美国 50
       - 美国 51
+      - 台湾 6
+      - 香港 3
+      - 澳大利亚 3
+      - _US_美国 68
+      - _US_美国 69
+      - _US_美国 70
+      - _US_美国 71
       - 美国 52
       - 美国 53
-      - 加拿大 4
-      - 美国 54
-      - 美国 55
-      - YouTube-由零开始-美国 9
-      - 澳大利亚 7
-      - 法国 2
-      - 美国 56
-      - 美国 57
-      - 美国 58
-      - 美国 59
-      - 美国 60
-      - 美国 61
-      - YouTube-由零开始-美国 10
-      - YouTube-由零开始-美国 11
-      - 美国 62
-      - 美国 63
-      - YouTube-由零开始-美国 12
-      - 俄罗斯 3
-      - 美国 64
-      - 美国 65
-      - 瑞典
-      - 美国 66
-      - 美国 67
-      - 美国 68
-      - 美国 69
-      - 美国 70
-      - YouTube-由零开始-美国 13
-      - 俄罗斯 4
-      - 加拿大 5
-      - 美国 71
-      - 美国 72
-      - 美国 73
-      - 美国 74
-      - 美国 75
-      - 美国 76
-      - 香港 4
-      - 香港 5
-      - 台湾 8
-      - 加拿大 6
-      - 美国 77
-      - 美国 78
-      - 美国 79
-      - 美国 80
-      - 美国 81
-      - 香港 6
-      - 美国 82
-      - 美国 83
-      - 美国 84
-      - 美国 85
-      - 美国 86
-      - 台湾 9
-      - 加拿大 7
-      - 美国 87
-      - 美国 88
-      - 加拿大 8
-      - 加拿大 9
-      - 俄罗斯 5
-      - 加拿大 10
-      - 加拿大 11
-      - 加拿大 12
-      - 马来西亚
-      - 美国 89
-      - 美国 90
-      - 美国 91
-      - 美国 92
-      - 美国 93
-      - 俄罗斯 6
-      - 法国 3
-      - 加拿大 13
-      - 日本 3
-      - 台湾 10
-      - 俄罗斯 7
-      - YouTube-由零开始-美国 14
-      - 加拿大 14
-      - 美国 94
-      - 美国 95
-      - 法国 4
-      - 美国 96
-      - 美国 97
-      - 台湾 11
-      - 台湾 12
-      - 美国 98
-      - 法国 5
-      - 加拿大 15
-      - 加拿大 16
-      - 法国 6
-      - 法国 7
-      - 法国 8
-      - 法国 9
-      - 加拿大 17
-      - 美国 99
-      - 美国 100
-      - 美国 101
-      - 印度
-      - RU_152
-      - 加拿大 18
-      - 美国 102
-      - 美国 103
-      - 美国 104
-      - 美国 105
-      - 美国 106
-      - 美国 107
-      - 香港 7
-      - 德国
-      - 挪威 2
       - 挪威 3
-      - 俄罗斯 8
-      - 俄罗斯 9
-      - 法国 10
-      - 法国 11
-      - 美国 108
-      - 美国 109
       - 挪威 4
+      - _CA_加拿大
+      - _US_美国 72
+      - _US_美国 73
+      - 法国 11
+      - 加拿大 17
+      - 加拿大 18
+      - 加拿大 19
       - 挪威 5
-      - 挪威 6
-      - 香港 8
-      - 香港 9
-      - 香港 10
-      - 香港 11
+      - 台湾 7
+      - 美国 54
+      - YouTube-由零开始-美国 6
+      - _NO_挪威
       - 法国 12
       - 法国 13
+      - 美国 55
+      - _US_美国 74
+      - _US_美国 75
+      - 香港 4
+      - 美国 56
+      - 美国 57
+      - 挪威 6
+      - 挪威 7
+      - 挪威 8
+      - 挪威 9
       - 法国 14
       - 法国 15
       - 法国 16
+      - 菲律宾
+      - 挪威 10
+      - 台湾 8
+      - 印度
+      - 俄罗斯 7
       - 法国 17
       - 法国 18
       - 法国 19
       - 法国 20
+      - 美国 58
+      - 台湾 9
+      - 新西兰
+      - 以色列
+      - _US_美国 76
+      - _US_美国 77
+      - _US_美国 78
+      - 俄罗斯 8
       - 法国 21
-      - 法国 22
-      - 法国 23
-      - 法国 24
-      - 挪威 7
-      - 挪威 8
-      - 挪威 9
-      - 挪威 10
-      - 挪威 11
+      - 瑞典
+      - 台湾 10
+      - 台湾 11
+      - 越南
+      - _US_美国 79
+      - _US_美国 80
+      - _LU_卢森堡
+      - _US_美国 81
+      - _US_美国 82
+      - _BG_保加利亚
+      - _US_美国 83
+      - _HU_匈牙利
+      - _CH_瑞士
+      - _US_美国 84
+      - 美国 59
+      - 俄罗斯 9
       - 俄罗斯 10
-      - 加拿大 19
-      - 美国 110
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 香港 12
-      - 香港 13
-      - 香港 14
+      - 法国 22
+      - 美国 60
+      - 美国 61
+      - _BE_比利时
+      - 马来西亚
+      - 俄罗斯 11
+      - 俄罗斯 12
+      - 美国 62
+      - 美国 63
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
