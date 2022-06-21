@@ -4,288 +4,272 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies:
-  - {name: 美国【聚宝盆儿】, server: bai-piao-wang-zhe-iplc4.98848.xyz, port: 26995, type: vmess, uuid: 39c8ee80-37eb-4af2-a5aa-fdf294162fcd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@/YouTube-bai-piao-wang-zhe, ws-headers: {Host: bai-piao-wang-zhe-iplc4.98848.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 2, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.215.130.186}, udp: true}
-  - {name: 美国【聚宝盆儿】 3, server: app.ssfree.ru, port: 443, type: vmess, uuid: 112b3816-ddd6-11ec-8d1b-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
-  - {name: 美国【聚宝盆儿】 4, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国【聚宝盆儿】 5, server: vpn.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 6, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 7, server: node3.binghe.ga, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/opentunnel?user=opentunnel.net-bh5", ws-headers: {Host: usv-1.openv2ray.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 8, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 英国【聚宝盆儿】, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 9, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 新加坡【聚宝盆儿】, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 10, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国【聚宝盆儿】 11, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 英国【聚宝盆儿】 2, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 法国【聚宝盆儿】, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: 美国【聚宝盆儿】 12, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51us.fans8.xyz}, udp: true}
-  - {name: 新加坡【聚宝盆儿】 2, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg3.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡【聚宝盆儿】 3, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 13, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国【聚宝盆儿】 14, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 新加坡【聚宝盆儿】 4, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg3.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 15, server: vpn.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港【聚宝盆儿】, server: 521hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521hk.fans8.xyz}, udp: true}
-  - {name: 香港【聚宝盆儿】 2, server: 43.129.87.145, port: 443, type: vmess, uuid: cfeb09c3-dc61-4a57-adb9-55aa968e5b14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 新加坡【聚宝盆儿】 5, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /howdy, ws-headers: {Host: v2ray3.bonds.id}, udp: true}
-  - {name: 美国【聚宝盆儿】 16, server: vpn.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港【聚宝盆儿】, server: 521hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521hk.fans8.xyz}, udp: true}
-  - {name: 德国【聚宝盆儿】, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 17, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰【聚宝盆儿】, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 18, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 19, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 【聚宝盆儿】, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 20, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 新加坡【聚宝盆儿】 6, server: sg2.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg2.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 中国【聚宝盆儿】, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521sg.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 21, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 22, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 新加坡【聚宝盆儿】 7, server: sg2.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg2.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 23, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 24, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国【聚宝盆儿】 25, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 日本【YouTube-由零開始】, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51jp1.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 26, server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xxX4, ws-headers: {Host: sg.wweblog.pw}, udp: true}
-  - {name: 中国【聚宝盆儿】 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国【聚宝盆儿】 3, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521sg.fans8.xyz}, udp: true}
-  - {name: 中国【聚宝盆儿】 4, server: 523hk1.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 523hk1.fans8.xyz}, udp: true}
-  - {name: 新加坡【聚宝盆儿】 8, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /howdy, ws-headers: {Host: v2ray3.bonds.id}, udp: true}
-  - {name: 英国【聚宝盆儿】 3, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 日本【聚宝盆儿】, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 中国【聚宝盆儿】 5, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 27, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 美国【聚宝盆儿】 28, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: 俄罗斯联邦【聚宝盆儿】, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 29, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51us.fans8.xyz}, udp: true}
-  - {name: 台湾【聚宝盆儿】, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 30, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 英国【聚宝盆儿】 4, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 德国【聚宝盆儿】 2, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 日本【聚宝盆儿】 2, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰【聚宝盆儿】 2, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
-  - {name: 美国【聚宝盆儿】 31, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 32, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 美国【聚宝盆儿】 33, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
+proxies:聚宝盆儿
+  - {name: 中国【聚宝盆儿】, server: relay_cm1.flyxxl.xyz, port: 25004, type: vmess, uuid: 6a087926-b3eb-4545-bced-7f90094d8735, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /pic/fjiew2-054j0gewn23k-1fr, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 香港【聚宝盆儿】, server: azbj01.986888.xyz, port: 41124, type: ss, cipher: aes-256-gcm, password: 65edcca2-a3ca-48e1-9f49-dfe46943978c, udp: true}
+  - {name: 中国【聚宝盆儿】 2, server: shyd.ddnsguru.com, port: 31817, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shyd.ddnsguru.com}, udp: true}
+  - {name: 美国【聚宝盆儿】, server: bai-piao-wang-zhe.hk.884899.cf, port: 80, type: vmess, uuid: fa3f6466-a3be-4e83-9f0e-f35680b2c79d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 新加坡【聚宝盆儿】, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-02.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 中国【聚宝盆儿】 3, server: shyd.ddnsguru.com, port: 58777, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shyd.ddnsguru.com}, udp: true}
+  - {name: 新加坡【聚宝盆儿】 2, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-04.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 韩国【聚宝盆儿】, server: 0001.kr.genzpn.com, port: 80, type: vmess, uuid: 4f4418cd-385c-4203-a323-1b4d2be8e495, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 美国【聚宝盆儿】 2, server: bai-piao-wang-zhe.hk.884899.cf, port: 20941, type: vmess, uuid: fa3f6466-a3be-4e83-9f0e-f35680b2c79d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 美国【聚宝盆儿】 3, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
+  - {name: 美国【聚宝盆儿】 4, server: ss2.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
+  - {name: 日本【聚宝盆儿】, server: ocijp.n.optage.moe, port: 44616, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 日本【聚宝盆儿】 2, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 印度【聚宝盆儿】, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 5, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
+  - {name: 美国【聚宝盆儿】 6, server: 0001.us.genzpn.com, port: 80, type: vmess, uuid: 4f4418cd-385c-4203-a323-1b4d2be8e495, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 美国【聚宝盆儿】 7, server: 45.137.97.205, port: 58000, type: trojan, password: b2bee5c6-5a07-481e-ac2e-e57ca07bad82, skip-cert-verify: true, udp: true}
+  - {name: 【聚宝盆儿】, server: vietnam.hn21.shopvpn.net, port: 80, type: vmess, uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: quangtien.akamaized.net}, udp: true}
+  - {name: 美国【聚宝盆儿】 8, server: gcfree2.galaxy-cloud.icu, port: 443, type: vmess, uuid: 3b35f4e4-ea78-467b-a00d-c26e887acc08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /1rSPVXnOO, ws-headers: {Host: gcfree.galaxy-cloud.icu}, udp: true}
+  - {name: 美国【聚宝盆儿】 9, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【聚宝盆儿】 3, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 10, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 9cc94127-c25f-470d-a758-11255613de23, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 11, server: us-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 中国【聚宝盆儿】 4, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 日本【聚宝盆儿】 3, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 48C166B2-BFC2-512E-4D67-47C2F7B2CE5C, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 中国【聚宝盆儿】 5, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 美国【聚宝盆儿】 12, server: gcfree1.galaxy-cloud.icu, port: 443, type: vmess, uuid: 3b35f4e4-ea78-467b-a00d-c26e887acc08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /1rSPVXnOO, ws-headers: {Host: gcfree.galaxy-cloud.icu}, udp: true}
+  - {name: 中国【聚宝盆儿】 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 新加坡【聚宝盆儿】 4, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, sni: w13.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯联邦【聚宝盆儿】, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
+  - {name: 中国【聚宝盆儿】 7, server: zh01lv5ge02.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 6f8ebe83-8910-4106-9dc4-18a41cc20ed4, udp: true}
+  - {name: 新加坡【聚宝盆儿】 5, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 台湾【聚宝盆儿】, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: 美国【聚宝盆儿】 13, server: gcfree.galaxy-cloud.icu, port: 443, type: vmess, uuid: 3b35f4e4-ea78-467b-a00d-c26e887acc08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /1rSPVXnOO, ws-headers: {Host: gcfree.galaxy-cloud.icu}, udp: true}
+  - {name: 美国【聚宝盆儿】 14, server: app.ssfree.ru, port: 443, type: vmess, uuid: 4b3cecec-ef84-11ec-aa14-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
+  - {name: 美国【聚宝盆儿】 15, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 中国【聚宝盆儿】 8, server: gy.ziqiyun.xyz, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: d975d166-f2b7-4072-a31a-edbe5c097011, udp: true}
+  - {name: 美国【聚宝盆儿】 16, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【聚宝盆儿】 6, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, sni: w11.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【聚宝盆儿】 7, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 中国【聚宝盆儿】 9, server: zh01lv5tw03.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 6f8ebe83-8910-4106-9dc4-18a41cc20ed4, udp: true}
+  - {name: 香港【聚宝盆儿】 2, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国【聚宝盆儿】, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 17, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}, udp: true}
+  - {name: 美国【聚宝盆儿】 18, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 19, server: v05.ssrsub.com, port: 153, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
+  - {name: 【聚宝盆儿】 2, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 中国【聚宝盆儿】 10, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 美国【聚宝盆儿】 20, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国【聚宝盆儿】 2, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 39122adb-77b5-497c-a226-71fbf74b759b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国【聚宝盆儿】 21, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【聚宝盆儿】 3, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 中国【聚宝盆儿】 11, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 22, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
+  - {name: 美国【聚宝盆儿】 23, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 24, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 9cc94127-c25f-470d-a758-11255613de23, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 25, server: usfree2.jiantian.xyz, port: 32453, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯联邦【聚宝盆儿】 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 中国【聚宝盆儿】 6, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国【聚宝盆儿】 12, server: gy.ziqiyun.xyz, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: 59836db8-6e5f-4b8b-aa1e-3963f9d9c923, udp: true}
+  - {name: 新加坡【聚宝盆儿】 8, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国【聚宝盆儿】 26, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国【聚宝盆儿】 13, server: hk64.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -304,295 +288,278 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 香港【聚宝盆儿】
       - 台湾【聚宝盆儿】
+      - 香港【聚宝盆儿】 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -608,72 +575,68 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国【聚宝盆儿】
+      - 香港【聚宝盆儿】
+      - 中国【聚宝盆儿】 2
       - 美国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】
+      - 中国【聚宝盆儿】 3
+      - 新加坡【聚宝盆儿】 2
+      - 韩国【聚宝盆儿】
       - 美国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 3
       - 美国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】
+      - 日本【聚宝盆儿】 2
+      - 印度【聚宝盆儿】
       - 美国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 6
       - 美国【聚宝盆儿】 7
+      - 【聚宝盆儿】
       - 美国【聚宝盆儿】 8
-      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 9
-      - 新加坡【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 3
       - 美国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 11
-      - 英国【聚宝盆儿】 2
-      - 法国【聚宝盆儿】
+      - 中国【聚宝盆儿】 4
+      - 日本【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 5
       - 美国【聚宝盆儿】 12
-      - 新加坡【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 4
+      - 俄罗斯联邦【聚宝盆儿】
+      - 中国【聚宝盆儿】 7
+      - 新加坡【聚宝盆儿】 5
+      - 台湾【聚宝盆儿】
       - 美国【聚宝盆儿】 13
       - 美国【聚宝盆儿】 14
-      - 新加坡【聚宝盆儿】 4
       - 美国【聚宝盆儿】 15
-      - 香港【聚宝盆儿】
-      - 香港【聚宝盆儿】 2
-      - 新加坡【聚宝盆儿】 5
+      - 中国【聚宝盆儿】 8
       - 美国【聚宝盆儿】 16
-      - 香港【聚宝盆儿】
-      - 德国【聚宝盆儿】
+      - 新加坡【聚宝盆儿】 6
+      - 新加坡【聚宝盆儿】 7
+      - 中国【聚宝盆儿】 9
+      - 香港【聚宝盆儿】 2
+      - 英国【聚宝盆儿】
       - 美国【聚宝盆儿】 17
-      - 乌克兰【聚宝盆儿】
       - 美国【聚宝盆儿】 18
       - 美国【聚宝盆儿】 19
-      - 【聚宝盆儿】
+      - 【聚宝盆儿】 2
+      - 中国【聚宝盆儿】 10
       - 美国【聚宝盆儿】 20
-      - 新加坡【聚宝盆儿】 6
-      - 中国【聚宝盆儿】
+      - 英国【聚宝盆儿】 2
       - 美国【聚宝盆儿】 21
+      - 【聚宝盆儿】 3
+      - 中国【聚宝盆儿】 11
       - 美国【聚宝盆儿】 22
-      - 新加坡【聚宝盆儿】 7
       - 美国【聚宝盆儿】 23
       - 美国【聚宝盆儿】 24
       - 美国【聚宝盆儿】 25
-      - 日本【YouTube-由零開始】
-      - 美国【聚宝盆儿】 26
-      - 中国【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 3
-      - 中国【聚宝盆儿】 4
-      - 新加坡【聚宝盆儿】 8
-      - 英国【聚宝盆儿】 3
-      - 日本【聚宝盆儿】
-      - 中国【聚宝盆儿】 5
-      - 美国【聚宝盆儿】 27
-      - 美国【聚宝盆儿】 28
-      - 俄罗斯联邦【聚宝盆儿】
-      - 美国【聚宝盆儿】 29
-      - 台湾【聚宝盆儿】
-      - 美国【聚宝盆儿】 30
-      - 英国【聚宝盆儿】 4
-      - 德国【聚宝盆儿】 2
-      - 日本【聚宝盆儿】 2
-      - 乌克兰【聚宝盆儿】 2
-      - 美国【聚宝盆儿】 31
-      - 美国【聚宝盆儿】 32
-      - 美国【聚宝盆儿】 33
       - 俄罗斯联邦【聚宝盆儿】 2
-      - 中国【聚宝盆儿】 6
+      - 中国【聚宝盆儿】 12
+      - 新加坡【聚宝盆儿】 8
+      - 美国【聚宝盆儿】 26
+      - 中国【聚宝盆儿】 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
